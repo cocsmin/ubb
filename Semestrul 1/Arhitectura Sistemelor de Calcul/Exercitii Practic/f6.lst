@@ -1,0 +1,86 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, fread, printf, fopen, fclose               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import fread msvcrt.dll
+    11                                  import printf msvcrt.dll
+    12                                  import fopen msvcrt.dll
+    13                                  import fclose msvcrt.dll
+    14                                  ; our data is declared here (the variables needed by our program)
+    15                                  segment data use32 class=data
+    16                                      ; ...
+    17                                      ;Se da un fisier text. Sa se citeasca continutul fisierului, sa se determine cifra cu cea mai mare frecventa si sa se afiseze acea cifra impreuna cu frecventa acesteia. Numele fisierului text este definit in seg
+    18 00000000 7200                        mod_acces db "r", 0
+    19 00000002 64617465362E747874          nume_fisier db "date6.txt"
+    20 0000000B 00<rept>                    frecventa times 10 db 0
+    21                                      len equ 100
+    22 00000015 00<rept>                    text times len db 0
+    23 00000079 FFFFFFFF                    descriptor dd -1
+    24 0000007D 436966726120652025-         afisare db "Cifra e %d cu frecventa maxima %d"
+    24 00000086 642063752066726563-
+    24 0000008F 76656E7461206D6178-
+    24 00000098 696D61202564       
+    25                                  ; our code starts here
+    26                                  segment code use32 class=code
+    27                                      start:
+    28                                          ; ...
+    29 00000000 68[00000000]                    push dword mod_acces
+    30 00000005 68[02000000]                    push dword nume_fisier
+    31 0000000A FF15[00000000]                  call [fopen]
+    32 00000010 83C408                          add esp, 4*2
+    33                                          
+    34 00000013 A3[79000000]                    mov [descriptor], EAX
+    35 00000018 83F800                          cmp EAX, 0
+    36 0000001B 7478                            je final
+    37                                          
+    38 0000001D FF35[79000000]                  push dword [descriptor]
+    39 00000023 6A64                            push dword len
+    40 00000025 6A01                            push dword 1
+    41 00000027 68[15000000]                    push dword text
+    42 0000002C FF15[00000000]                  call [fread]
+    43 00000032 83C410                          add esp, 4*4
+    44                                          
+    45 00000035 BE[15000000]                    mov ESI, text
+    46 0000003A 89C1                            mov ECX, EAX
+    47                                          repeta:
+    48 0000003C B800000000                          mov EAX, 0
+    49 00000041 AC                                  lodsb
+    50 00000042 2C30                                sub AL, '0'
+    51 00000044 FE80[0B000000]                      inc byte[frecventa + EAX]
+    52 0000004A E2F0                                loop repeta
+    53 0000004C BB00000000                      mov EBX, 0
+    54 00000051 B90A000000                      mov ECX, 10
+    55 00000056 BF00000000                      mov EDI, 0
+    56 0000005B B800000000                      mov EAX, 0
+    57                                          maxim:
+    58 00000060 3887[0B000000]                      cmp byte[frecventa + EDI], AL
+    59 00000066 7E08                                jle nu
+    60 00000068 8A87[0B000000]                      mov AL, [frecventa + EDI]
+    61 0000006E 89FB                                mov EBX, EDI
+    62                                              nu:
+    63 00000070 47                                      inc EDI
+    64 00000071 E2ED                                    loop maxim
+    65                                                  
+    66 00000073 6698                            cbw
+    67 00000075 98                              cwde
+    68 00000076 50                              push EAX
+    69 00000077 53                              push EBX
+    70 00000078 68[7D000000]                    push afisare
+    71 0000007D FF15[00000000]                  call [printf]
+    72 00000083 83C40C                          add esp, 4*3
+    73                                          
+    74 00000086 FF35[79000000]                  push dword[descriptor]
+    75 0000008C FF15[00000000]                  call [fclose]
+    76 00000092 83C404                          add esp, 4
+    77                                          
+    78                                  
+    79                                  
+    80                                          final:
+    81                                          ; exit(0)
+    82 00000095 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    83 00000097 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

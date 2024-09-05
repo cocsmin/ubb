@@ -1,0 +1,74 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, fprintf, fread, fopen, fclose               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import fprintf msvcrt.dll
+    11                                  import fread msvcrt.dll
+    12                                  import fopen msvcrt.dll
+    13                                  import fclose msvcrt.dll
+    14                                  
+    15                                  ; our data is declared here (the variables needed by our program)
+    16                                  segment data use32 class=data
+    17                                      ; ...
+    18                                      ;Se dau in segmentul de date un nume de fisier si un text (poate contine orice tip de caracter). Sa se calculeze suma cifrelor din text. Sa se creeze un fisier cu numele dat si sa se scrie suma obtinuta in fisie
+    19 00000000 4261207361206D6F72-         text db "Ba sa mor eu ce-as bea 5 beri si 2 sticle de vin", 0
+    19 00000009 2065752063652D6173-
+    19 00000012 206265612035206265-
+    19 0000001B 726920736920322073-
+    19 00000024 7469636C6520646520-
+    19 0000002D 76696E00           
+    20 00000031 6461746531392E7478-         nume_fisier db "date19.txt", 0
+    20 0000003A 7400               
+    21 0000003C 772B00                      mod_acces db "w+", 0
+    22 0000003F 00000000                    suma_cf dd 0
+    23 00000043 FFFFFFFF                    descriptor dd -1
+    24                                      
+    25                                  
+    26                                  ; our code starts here
+    27                                  segment code use32 class=code
+    28                                      start:
+    29                                          ; ...
+    30 00000000 68[3C000000]                    push mod_acces
+    31 00000005 68[31000000]                    push nume_fisier
+    32 0000000A FF15[00000000]                  call [fopen]
+    33 00000010 A3[43000000]                    mov [descriptor], EAX
+    34 00000015 83F800                          cmp EAX, 0
+    35 00000018 7443                            je final
+    36                                          
+    37 0000001A BE[00000000]                    mov ESI, text
+    38 0000001F B700                            mov BH, 0
+    39                                          repeta:
+    40 00000021 AC                                  lodsb
+    41 00000022 3C00                                cmp AL, 0
+    42 00000024 740E                                je afara
+    43 00000026 3C30                                cmp AL, '0'
+    44 00000028 7F08                                jg next
+    45 0000002A 3C39                                cmp AL, '9'
+    46 0000002C 7C04                                jl next
+    47 0000002E 2C30                                sub AL, '0'
+    48 00000030 00C7                                add BH, AL
+    49                                              next:
+    50 00000032 EBED                                jmp repeta
+    51                                          afara: 
+    52 00000034 883D[3F000000]                  mov [suma_cf], BH
+    53                                          
+    54 0000003A 68[3F000000]                    push suma_cf
+    55 0000003F FF35[43000000]                  push dword[descriptor]
+    56 00000045 FF15[00000000]                  call [fprintf]
+    57 0000004B 83C408                          add esp, 4*2
+    58                                          
+    59 0000004E FF35[43000000]                  push dword[descriptor]
+    60 00000054 FF15[00000000]                  call [fclose]
+    61 0000005A 83C404                          add esp, 4
+    62                                          
+    63                                          
+    64                                          
+    65                                          final:
+    66                                          ; exit(0)
+    67 0000005D 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    68 0000005F FF15[00000000]                  call    [exit]       ; call exit to terminate the program

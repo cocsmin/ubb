@@ -1,0 +1,81 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, fprintf, fread, fopen, fclose,fscanf               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import fprintf msvcrt.dll
+    11                                  import fread msvcrt.dll
+    12                                  import fopen msvcrt.dll
+    13                                  import fclose msvcrt.dll
+    14                                  import fscanf msvcrt.dll
+    15                                  ; our data is declared here (the variables needed by our program)
+    16                                  segment data use32 class=data
+    17                                      ; ...
+    18                                      ;Se da un fisier text. Fisierul contine numere (în baza 10) separate prin spatii. Sa se citeasca continutul acestui fisier, sa se determine maximul numerelor citite si sa se scrie rezultatul la sfarsitul fisier
+    19 00000000 6461746532392E7478-         nume_fisier db "date29.txt", 0
+    19 00000009 7400               
+    20 0000000B 7200                        mod_citire db "r", 0
+    21 0000000D 6100                        mod_adaugare db "a", 0
+    22                                      len equ 100
+    23 0000000F 256400                      format db "%d", 0
+    24 00000012 00000000                    numar dd 0
+    25 00000016 00000000                    maxim dd 0
+    26 0000001A FFFFFFFF                    id_citire dd -1
+    27 0000001E FFFFFFFF                    id_adaugare dd -1
+    28                                  ; our code starts here
+    29                                  segment code use32 class=code
+    30                                      start:
+    31                                          ; ...
+    32 00000000 68[0B000000]                    push mod_citire
+    33 00000005 68[00000000]                    push nume_fisier
+    34 0000000A FF15[00000000]                  call [fopen]
+    35                                          
+    36 00000010 A3[1A000000]                    mov [id_citire], EAX
+    37 00000015 83F800                          cmp EAX, 0
+    38 00000018 0F848C000000                    je final
+    39                                          
+    40 0000001E BB00000000                      mov EBX, 0
+    41 00000023 B964000000                      mov ECX, 100
+    42                                          cauta:
+    43 00000028 68[12000000]                        push numar
+    44 0000002D 68[0F000000]                        push format
+    45 00000032 FF35[1A000000]                      push dword[id_citire]
+    46 00000038 FF15[00000000]                      call [fscanf]
+    47 0000003E 83C40C                              add esp, 4*3
+    48 00000041 A1[12000000]                        mov EAX, [numar]
+    49 00000046 3905[16000000]                      cmp [maxim], EAX
+    50 0000004C 7F05                                jg next
+    51 0000004E A3[16000000]                        mov [maxim], EAX
+    52                                              next:
+    53 00000053 E2D3                                loop cauta
+    54                                              
+    55 00000055 FF35[1A000000]                  push dword[id_citire]
+    56 0000005B FF15[00000000]                  call [fclose]
+    57 00000061 83C404                          add esp, 4
+    58                                          
+    59 00000064 68[0D000000]                    push mod_adaugare
+    60 00000069 68[00000000]                    push nume_fisier
+    61 0000006E FF15[00000000]                  call [fopen]
+    62 00000074 83C408                          add esp, 4*2
+    63 00000077 A3[1E000000]                    mov [id_adaugare], EAX
+    64 0000007C 83F800                          cmp EAX, 0
+    65 0000007F 7429                            je final
+    66                                          
+    67 00000081 FF35[16000000]                  push dword[maxim]
+    68 00000087 68[0F000000]                    push format
+    69 0000008C FF35[1E000000]                  push dword[id_adaugare]
+    70 00000092 FF15[00000000]                  call [fprintf]
+    71 00000098 83C40C                          add esp, 4*3
+    72                                          
+    73 0000009B FF35[1E000000]                  push dword[id_adaugare]
+    74 000000A1 FF15[00000000]                  call [fclose]
+    75 000000A7 83C404                          add esp, 4
+    76                                          
+    77                                          final:
+    78                                          ; exit(0)
+    79 000000AA 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    80 000000AC FF15[00000000]                  call    [exit]       ; call exit to terminate the program

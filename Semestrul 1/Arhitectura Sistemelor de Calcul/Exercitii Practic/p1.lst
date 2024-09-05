@@ -1,0 +1,54 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, scanf, printf              ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import scanf msvcrt.dll
+    11                                  import printf msvcrt.dll
+    12                                  ; our data is declared here (the variables needed by our program)
+    13                                  segment data use32 class=data
+    14                                      ; ...
+    15                                      ;Sa se citeasca de la tastatura doua numere (in baza 10) si sa se calculeze produsul lor. Rezultatul inmultirii se va salva in memorie in variabila "rezultat" (definita in segmentul de date).
+    16 00000000 256400                      format db "%d", 0
+    17 00000003 613D2000                    msj1 db "a= ",0
+    18 00000007 623D2000                    msj2 db "b= ",0
+    19 0000000B 00000000                    rezultat dd 0
+    20 0000000F 0000                        a dw 0
+    21 00000011 0000                        b dw 0
+    22                                  
+    23                                  ; our code starts here
+    24                                  segment code use32 class=code
+    25                                      start:
+    26                                          ; ...
+    27 00000000 68[03000000]                    push msj1
+    28 00000005 FF15[00000000]                  call [printf]
+    29 0000000B 83C404                          add esp, 4
+    30 0000000E 68[0F000000]                    push a
+    31 00000013 68[00000000]                    push format
+    32 00000018 FF15[00000000]                  call [scanf]
+    33 0000001E 83C408                          add esp, 4*2
+    34                                          
+    35 00000021 68[07000000]                    push msj2
+    36 00000026 FF15[00000000]                  call [printf]
+    37 0000002C 83C404                          add esp, 4
+    38 0000002F 68[11000000]                    push b
+    39 00000034 68[00000000]                    push format
+    40 00000039 FF15[00000000]                  call [scanf]
+    41 0000003F 83C408                          add esp, 4*2
+    42                                          
+    43 00000042 66A1[0F000000]                  mov AX, [a]
+    44 00000048 66F725[11000000]                mul word[b]
+    45 0000004F A3[0B000000]                    mov [rezultat], EAX
+    46                                          
+    47 00000054 FF35[0B000000]                  push dword[rezultat]
+    48 0000005A 68[00000000]                    push format
+    49 0000005F FF15[00000000]                  call [printf]
+    50 00000065 83C408                          add esp, 4*2
+    51                                      
+    52                                          ; exit(0)
+    53 00000068 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    54 0000006A FF15[00000000]                  call    [exit]       ; call exit to terminate the program

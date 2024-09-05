@@ -1,0 +1,66 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, fprintf, fopen, fclose, scanf, printf         ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import fprintf msvcrt.dll
+    11                                  import fopen msvcrt.dll
+    12                                  import fclose msvcrt.dll
+    13                                  import printf msvcrt.dll
+    14                                  import scanf msvcrt.dll
+    15                                  ; our data is declared here (the variables needed by our program)
+    16                                  segment data use32 class=data
+    17                                      ; ...
+    18                                      ;Se da un nume de fisier (definit in segmentul de date). Sa se creeze un fisier cu numele dat, apoi sa se citeasca de la tastatura cuvinte si sa se scrie in fisier cuvintele citite pana cand se citeste de la tas
+    19 00000000 6461746531312E7478-         nume_fisier db "date11.txt", 0
+    19 00000009 7400               
+    20 0000000B 772B00                      mod_acces db "w+", 0
+    21 0000000E 00<rept>                    cuvant times 100 db 0
+    22 00000072 496E74726F64756365-         mesaj db "Introduceti cuvantul: ", 0
+    22 0000007B 746920637576616E74-
+    22 00000084 756C3A2000         
+    23 00000089 257300                      format db "%s", 0
+    24 0000008C FFFFFFFF                    descriptor dd -1
+    25                                  ; our code starts here
+    26                                  segment code use32 class=code
+    27                                      start:
+    28                                          ; ...
+    29 00000000 68[0B000000]                    push dword mod_acces
+    30 00000005 68[00000000]                    push dword nume_fisier
+    31 0000000A FF15[00000000]                  call [fopen]
+    32 00000010 83C408                          add esp, 4*2
+    33 00000013 A3[8C000000]                    mov [descriptor], EAX
+    34 00000018 83F800                          cmp EAX, 0
+    35 0000001B 744C                            je final
+    36                                          citeste:
+    37 0000001D 68[72000000]                        push mesaj
+    38 00000022 FF15[00000000]                      call [printf]
+    39 00000028 83C404                              add esp, 4
+    40                                              
+    41 0000002B 68[0E000000]                        push cuvant
+    42 00000030 68[89000000]                        push format
+    43 00000035 FF15[00000000]                      call [scanf]
+    44 0000003B 83C408                              add esp, 4*2
+    45                                              
+    46 0000003E 803D[0E000000]24                    cmp byte[cuvant], '$'
+    47 00000045 7416                                je afara
+    48                                              
+    49 00000047 68[0E000000]                        push cuvant
+    50 0000004C FF35[8C000000]                      push dword[descriptor]
+    51 00000052 FF15[00000000]                      call [fprintf]
+    52 00000058 83C408                              add esp, 4*2
+    53 0000005B EBC0                                jmp citeste
+    54                                          
+    55                                          afara:
+    56 0000005D FF35[8C000000]                  push dword[descriptor]
+    57 00000063 FF15[00000000]                  call [fclose]
+    58                                          
+    59                                          
+    60                                          final:
+    61                                          ; exit(0)
+    62 00000069 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    63 0000006B FF15[00000000]                  call    [exit]       ; call exit to terminate the program

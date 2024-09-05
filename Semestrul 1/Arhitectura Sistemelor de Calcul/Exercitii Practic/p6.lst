@@ -1,0 +1,41 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, printf, scanf               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import printf msvcrt.dll
+    11                                  import scanf msvcrt.dll
+    12                                  ; our data is declared here (the variables needed by our program)
+    13                                  segment data use32 class=data
+    14                                      ; ...
+    15                                      ;Se dau doua numere naturale a si b (a: dword, b: word, definite in segmentul de date). Sa se calculeze a/b si sa se afiseze catul impartirii in urmatorul format: "<a>/<b> = <cat>"
+    16                                      ;Exemplu: pentru a = 200 si b = 5 se va afisa: "200/5 = 40"
+    17                                      ;Valorile vor fi afisate in format decimal (baza 10) cu semn.
+    18 00000000 C8000000                    a dd 200
+    19 00000004 0500                        b dw 5
+    20 00000006 00000000                    cat dd 0
+    21 0000000A 25642F2564203D2025-         format db "%d/%d = %d", 0
+    21 00000013 6400               
+    22                                  ; our code starts here
+    23                                  segment code use32 class=code
+    24                                      start:
+    25                                          ; ...
+    26 00000000 66A1[00000000]                  mov AX, [a]
+    27 00000006 668B15[02000000]                mov DX, [a+2]
+    28 0000000D 66F73D[04000000]                idiv word[b]
+    29 00000014 66A3[06000000]                  mov [cat], AX
+    30 0000001A 66A1[04000000]                  mov AX, [b]
+    31 00000020 98                              cwde
+    32 00000021 FF35[06000000]                  push dword[cat]
+    33 00000027 50                              push EAX
+    34 00000028 FF35[00000000]                  push dword[a]
+    35 0000002E 68[0A000000]                    push format
+    36 00000033 FF15[00000000]                  call [printf]
+    37 00000039 83C410                          add esp, 4*4
+    38                                          ; exit(0)
+    39 0000003C 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    40 0000003E FF15[00000000]                  call    [exit]       ; call exit to terminate the program

@@ -1,0 +1,80 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, scanf, fprintf, fopen, fclose, printf               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import scanf msvcrt.dll
+    11                                  import fprintf msvcrt.dll
+    12                                  import fopen msvcrt.dll
+    13                                  import fclose msvcrt.dll
+    14                                  import scanf msvcrt.dll
+    15                                  import printf msvcrt.dll
+    16                                  ; our data is declared here (the variables needed by our program)
+    17                                  segment data use32 class=data
+    18                                      ; ...
+    19                                      ;Se da un nume de fisier (definit in segmentul de date). Sa se creeze un fisier cu numele dat, apoi sa se citeasca de la tastatura cuvinte pana cand se citeste de la tastatura caracterul '$'. Sa se scrie in fisi
+    20 00000000 6461746532362E7478-         nume_fisier db "date26.txt", 0
+    20 00000009 7400               
+    21 0000000B 772B00                      mod_acces db "w+", 0
+    22 0000000E 00<rept>                    cuvant times 100 db 0
+    23 00000072 257300                      format db "%s", 0
+    24 00000075 00<rept>                    rezultat times 100 db 0
+    25 000000D9 496E74726F64756365-         mesaj db "Introduceti textul: ", 0
+    25 000000E2 74692074657874756C-
+    25 000000EB 3A2000             
+    26 000000EE FFFFFFFF                    descriptor dd -1
+    27                                  ; our code starts here
+    28                                  segment code use32 class=code
+    29                                      start:
+    30                                          ; ...
+    31 00000000 68[0B000000]                    push mod_acces
+    32 00000005 68[00000000]                    push nume_fisier
+    33 0000000A FF15[00000000]                  call [fopen]
+    34 00000010 A3[EE000000]                    mov [descriptor], EAX
+    35 00000015 83F800                          cmp EAX, 0
+    36 00000018 7461                            je final
+    37                                          citeste:
+    38 0000001A 68[D9000000]                        push mesaj
+    39 0000001F FF15[00000000]                      call [printf]
+    40 00000025 68[0E000000]                        push cuvant
+    41 0000002A 68[72000000]                        push format
+    42 0000002F FF15[00000000]                      call [scanf]
+    43 00000035 BE[0E000000]                        mov ESI, cuvant
+    44 0000003A B600                                mov DH, 0
+    45                                              verifica:
+    46 0000003C AC                                      lodsb
+    47 0000003D 3C24                                    cmp AL, '$'
+    48 0000003F 742B                                    je gata
+    49 00000041 3C00                                    cmp AL, 0
+    50 00000043 740C                                    je urm
+    51 00000045 3C41                                    cmp AL, 'A'
+    52 00000047 7C06                                    jl next
+    53 00000049 3C5A                                    cmp AL, 'Z'
+    54 0000004B 7F02                                    jg next
+    55 0000004D B601                                    mov DH, 1
+    56                                                  next:
+    57 0000004F EBEB                                    jmp verifica
+    58                                              urm:
+    59 00000051 80FE00                              cmp DH, 0
+    60 00000054 7414                                je urm_cuv
+    61 00000056 68[0E000000]                        push cuvant
+    62 0000005B FF35[EE000000]                      push dword[descriptor]
+    63 00000061 FF15[00000000]                      call [fprintf]
+    64 00000067 83C408                              add esp, 4*2
+    65                                              urm_cuv:
+    66 0000006A EBAE                                jmp citeste
+    67                                              
+    68                                          gata:
+    69                                          
+    70 0000006C FF35[EE000000]                  push dword[descriptor]
+    71 00000072 FF15[00000000]                  call [fclose]
+    72 00000078 83C404                          add esp, 4
+    73                                          
+    74                                          final:
+    75                                          ; exit(0)
+    76 0000007B 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    77 0000007D FF15[00000000]                  call    [exit]       ; call exit to terminate the program

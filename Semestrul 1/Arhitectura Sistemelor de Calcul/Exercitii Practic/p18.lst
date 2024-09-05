@@ -1,0 +1,70 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, printf, scanf              ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import scanf msvcrt.dll
+    11                                  import printf msvcrt.dll
+    12                                  ; our data is declared here (the variables needed by our program)
+    13                                  segment data use32 class=data
+    14                                      ; ...
+    15                                      ;Sa se citeasca de la tastatura un numar in baza 10 si un numar in baza 16. Sa se afiseze in baza 10 numarul de biti 1 ai sumei celor doua numere citite. Exemplu:
+    16                                      ;a = 32 = 0010 0000b
+    17                                      ;b = 1Ah = 0001 1010b
+    18                                      ;32 + 1Ah = 0011 1010b
+    19                                      ;Se va afisa pe ecran valoarea 4.
+    20 00000000 00000000                    a dd 0
+    21 00000004 00000000                    b dd 0
+    22 00000008 256400                      deca db "%d", 0
+    23 0000000B 257800                      hexa db "%x", 0
+    24 0000000E 613D00                      mesaj_a db "a=", 0
+    25 00000011 623D00                      mesaj_b db "b=", 0
+    26                                      
+    27                                  ; our code starts here
+    28                                  segment code use32 class=code
+    29                                      start:
+    30                                          ; ...
+    31 00000000 68[0E000000]                    push mesaj_a
+    32 00000005 FF15[00000000]                  call [printf]
+    33 0000000B 83C404                          add esp, 4
+    34                                          
+    35 0000000E 68[00000000]                    push a
+    36 00000013 68[08000000]                    push deca
+    37 00000018 FF15[00000000]                  call [scanf]
+    38 0000001E 83C408                          add esp, 4*2
+    39                                      
+    40 00000021 68[11000000]                    push mesaj_b
+    41 00000026 FF15[00000000]                  call [printf]
+    42 0000002C 83C404                          add esp, 4
+    43                                          
+    44 0000002F 68[04000000]                    push b
+    45 00000034 68[0B000000]                    push hexa
+    46 00000039 FF15[00000000]                  call [scanf]
+    47 0000003F 83C408                          add esp, 4*2
+    48                                          
+    49 00000042 31C0                            xor EAX, EAX
+    50 00000044 A1[00000000]                    mov EAX, [a]
+    51 00000049 0305[04000000]                  add EAX, [b]
+    52                                          
+    53 0000004F B920000000                      mov ECX, 32
+    54 00000054 BB00000000                      mov EBX, 0
+    55                                          calc_biti:
+    56 00000059 A901000000                          test eax, 1
+    57 0000005E 7401                                jz bit_0
+    58 00000060 43                                  inc EBX
+    59                                              bit_0:
+    60 00000061 D1E8                                shr EAX, 1
+    61 00000063 E2F4                                loop calc_biti
+    62                                              
+    63 00000065 53                              push EBX
+    64 00000066 68[08000000]                    push deca
+    65 0000006B FF15[00000000]                  call [printf]
+    66 00000071 83C408                          add esp, 4*2
+    67                                              
+    68                                          ; exit(0)
+    69 00000074 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    70 00000076 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

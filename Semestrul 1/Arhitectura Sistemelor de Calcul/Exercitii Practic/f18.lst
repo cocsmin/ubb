@@ -1,0 +1,87 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, fread, printf, fopen, fclose,               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import fread msvcrt.dll
+    11                                  import printf msvcrt.dll
+    12                                  import fopen msvcrt.dll
+    13                                  import fclose msvcrt.dll
+    14                                  ; our data is declared here (the variables needed by our program)
+    15                                  segment data use32 class=data
+    16                                      ; ...
+    17 00000000 00000000                    nr_cuv dd 0
+    18 00000004 FFFFFFFF                    descriptor dd -1
+    19                                      len equ 100
+    20 00000008 00<rept>                    text times len db 0
+    21 0000006C 4E756D6172756C2064-         afisare db "Numarul de cuvinte este: %d", 0
+    21 00000075 6520637576696E7465-
+    21 0000007E 20657374653A202564-
+    21 00000087 00                 
+    22 00000088 6461746531382E7478-         nume_fisier db "date18.txt", 0
+    22 00000091 7400               
+    23 00000093 7200                        mod_acces db "r", 0
+    24                                      
+    25                                  
+    26                                  ; our code starts here
+    27                                  segment code use32 class=code
+    28                                      start:
+    29                                          ; ...
+    30 00000000 68[93000000]                    push mod_acces
+    31 00000005 68[88000000]                    push nume_fisier
+    32 0000000A FF15[00000000]                  call [fopen]
+    33                                          
+    34 00000010 A3[04000000]                    mov [descriptor], EAX
+    35 00000015 83F800                          cmp EAX, 0
+    36 00000018 7466                            je final
+    37                                          
+    38 0000001A FF35[04000000]                  push dword[descriptor]
+    39 00000020 6A64                            push len
+    40 00000022 6A01                            push 1
+    41 00000024 68[08000000]                    push text
+    42 00000029 FF15[00000000]                  call [fread]
+    43 0000002F 83C410                          add esp, 4*4
+    44                                          
+    45 00000032 BB00000000                      mov EBX, 0
+    46 00000037 BE[08000000]                    mov ESI, text
+    47                                          repeta:
+    48 0000003C AC                                  lodsb
+    49 0000003D 3C00                                cmp AL, 0
+    50 0000003F 7416                                je afara
+    51 00000041 3C61                                cmp AL, 'a'
+    52 00000043 7C10                                jl next
+    53 00000045 3C7A                                cmp AL, 'z'
+    54 00000047 7F0C                                jg next
+    55                                              repeta2:
+    56 00000049 AC                                      lodsb
+    57 0000004A 3C2E                                    cmp AL, '.'
+    58 0000004C 7406                                    je aduna
+    59 0000004E 3C20                                    cmp AL, ' '
+    60 00000050 7402                                    je aduna
+    61 00000052 EBF5                                    jmp repeta2
+    62                                              aduna:
+    63 00000054 43                                  inc EBX ; nr_cuv
+    64                                              next:
+    65 00000055 EBE5                                jmp repeta
+    66                                              
+    67                                          
+    68                                          afara:
+    69 00000057 891D[00000000]                  mov [nr_cuv], EBX
+    70                                          
+    71 0000005D FF35[00000000]                  push dword[nr_cuv]
+    72 00000063 68[6C000000]                    push afisare
+    73 00000068 FF15[00000000]                  call [printf]
+    74 0000006E 83C408                          add esp, 4*2
+    75                                          
+    76 00000071 FF35[04000000]                  push dword[descriptor]
+    77 00000077 FF15[00000000]                  call [fclose]
+    78 0000007D 83C404                          add esp, 4
+    79                                              
+    80                                          final:
+    81                                          ; exit(0)
+    82 00000080 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    83 00000082 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

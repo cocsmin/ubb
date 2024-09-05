@@ -1,0 +1,39 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, printf, scanf              ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import printf msvcrt.dll
+    11                                  import scanf msvcrt.dll
+    12                                  ; our data is declared here (the variables needed by our program)
+    13                                  segment data use32 class=data
+    14                                      ; ...
+    15                                      ;Se dau doua numere naturale a si b (a, b: dword, definite in segmentul de date). Sa se calculeze suma lor si sa se afiseze in urmatorul format: "<a> + <b> = <result>"
+    16                                      ;Exemplu: "1 + 2 = 3"
+    17                                      ;Valorile vor fi afisate in format decimal (baza 10) cu semn.
+    18 00000000 FBFFFFFF                    a dd -5
+    19 00000004 02000000                    b dd 2
+    20 00000008 00000000                    result dd 0
+    21 0000000C 2564202B202564203D-         format db "%d + %d = %d", 0
+    21 00000015 20256400           
+    22                                  ; our code starts here
+    23                                  segment code use32 class=code
+    24                                      start:
+    25                                          ; ...
+    26 00000000 A1[00000000]                    mov EAX, [a]
+    27 00000005 0305[04000000]                  add EAX, [b]
+    28 0000000B A3[08000000]                    mov [result], EAX
+    29                                          
+    30 00000010 FF35[08000000]                  push dword[result]
+    31 00000016 FF35[04000000]                  push dword[b]
+    32 0000001C FF35[00000000]                  push dword[a]
+    33 00000022 68[0C000000]                    push format
+    34 00000027 FF15[00000000]                  call [printf]
+    35 0000002D 83C410                          add esp, 4*4
+    36                                          ; exit(0)
+    37 00000030 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    38 00000032 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

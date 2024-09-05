@@ -1,0 +1,81 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, fprintf, fopen, fclose,              ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import fprintf msvcrt.dll
+    11                                  import fopen msvcrt.dll
+    12                                  import fclose msvcrt.dll
+    13                                  ; our data is declared here (the variables needed by our program)
+    14                                  segment data use32 class=data
+    15                                      ; ...
+    16                                      ;Se dau un nume de fisier si un text (definite in segmentul de date). Textul contine litere mici si spatii. Sa se inlocuiasca toate literele de pe pozitii pare cu numarul pozitiei. Sa se creeze un fisier cu nume
+    17 00000000 616E6120617265206D-         text_dat db "ana are mere", 0
+    17 00000009 65726500           
+    18                                      len equ $-text_dat-1
+    19 0000000D 6461746532302E7478-         nume_fisier db "date20.txt", 0
+    19 00000016 7400               
+    20 00000018 7700                        mod_acces db "w", 0
+    21 0000001A 00<rept>                    rezultat times len+1 db 0
+    22 00000027 FFFFFFFF                    descriptor dd -1
+    23                                      
+    24                                      
+    25                                  ; our code starts here
+    26                                  segment code use32 class=code
+    27                                      start:
+    28                                          ; ...
+    29 00000000 BE[00000000]                    mov ESI, text_dat
+    30 00000005 BF[1A000000]                    mov EDI, rezultat
+    31 0000000A B700                            mov BH, 0
+    32 0000000C B90C000000                      mov ECX, len
+    33                                          repeta:
+    34 00000011 AC                                  lodsb
+    35 00000012 3C61                                cmp AL, 'a'
+    36 00000014 7C0B                                jl next
+    37 00000016 3C7A                                cmp AL, 'z'
+    38 00000018 7F07                                jg next
+    39 0000001A F6C701                              test BH, 1
+    40 0000001D 7502                                jnz next
+    41 0000001F 88F8                                mov AL, BH
+    42                                              ;add AL, '0'
+    43                                              next:
+    44 00000021 AA                                  stosb
+    45 00000022 FEC7                                inc BH
+    46 00000024 E2EB                                loop repeta
+    47 00000026 B000                            mov AL, 0
+    48 00000028 AA                              stosb
+    49                                          
+    50 00000029 68[18000000]                    push mod_acces
+    51 0000002E 68[0D000000]                    push nume_fisier
+    52 00000033 FF15[00000000]                  call [fopen]
+    53 00000039 83C408                          add esp, 4*2
+    54                                          
+    55 0000003C A3[27000000]                    mov [descriptor] , EAX
+    56 00000041 83F800                          cmp EAX, 0
+    57 00000044 7423                            je final
+    58                                          
+    59                                          
+    60                                          ;mov [rezultat], EDI
+    61 00000046 68[1A000000]                    push rezultat
+    62 0000004B FF35[27000000]                  push dword[descriptor]
+    63 00000051 FF15[00000000]                  call [fprintf]
+    64 00000057 83C408                          add esp, 4*2
+    65                                          
+    66 0000005A FF35[27000000]                  push dword[descriptor]
+    67 00000060 FF15[00000000]                  call [fclose]
+    68 00000066 83C404                          add esp, 4
+    69                                          
+    70                                          
+    71                                          
+    72                                          
+    73                                          
+    74                                          
+    75                                          
+    76                                          final:
+    77                                          ; exit(0)
+    78 00000069 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    79 0000006B FF15[00000000]                  call    [exit]       ; call exit to terminate the program

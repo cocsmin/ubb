@@ -1,0 +1,76 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, printf, scanf              ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import printf msvcrt.dll
+    11                                  import scanf msvcrt.dll
+    12                                  ; our data is declared here (the variables needed by our program)
+    13                                  segment data use32 class=data
+    14                                      ; ...
+    15                                      ;Sa se citeasca de la tastatura un octet si un cuvant. Sa se afiseze pe ecran daca bitii octetului citit se regasesc consecutiv printre bitii cuvantului. Exemplu:
+    16                                      ;a = 10 = 0000 1010b
+    17                                      ;b = 256 = 0000 0001 0000 0000b
+    18                                      ;Pe ecran se va afisa NU.
+    19                                      ;a = 0Ah = 0000 1010b
+    20                                      ;b = 6151h = 0110 0001 0101 0001b
+    21                                      ;Pe ecran se va afisa DA (bitii se regasesc pe pozitiile 5-12).
+    22 00000000 0000                        a dw 0
+    23 00000002 00                          b db 0
+    24 00000003 256400                      format1 db "%d", 0
+    25 00000006 256400                      format2 db "%d", 0
+    26 00000009 444100                      mesaj_da db "DA", 0
+    27 0000000C 4E5500                      mesaj_nu db "NU", 0
+    28 0000000F 613D00                      mesaj_a db "a=", 0
+    29 00000012 623D00                      mesaj_b db "b=", 0
+    30                                  ; our code starts here
+    31                                  segment code use32 class=code
+    32                                      start:
+    33                                          ; ...
+    34 00000000 68[0F000000]                    push mesaj_a
+    35 00000005 FF15[00000000]                  call [printf]
+    36 0000000B 83C404                          add esp, 4
+    37                                          
+    38 0000000E 68[00000000]                    push a
+    39 00000013 68[03000000]                    push format1
+    40 00000018 FF15[00000000]                  call [scanf]
+    41 0000001E 83C408                          add esp, 4*2
+    42                                          
+    43 00000021 68[12000000]                    push mesaj_b
+    44 00000026 FF15[00000000]                  call [printf]
+    45 0000002C 83C404                          add esp, 4
+    46                                          
+    47 0000002F 68[02000000]                    push b
+    48 00000034 68[06000000]                    push format2
+    49 00000039 FF15[00000000]                  call [scanf]
+    50 0000003F 83C408                          add esp, 4*2
+    51                                          
+    52 00000042 6631C0                          xor AX, AX
+    53 00000045 B910000000                      mov ECX, 16
+    54 0000004A 66A1[02000000]                  mov AX, [b]
+    55 00000050 8A1D[00000000]                  mov BL, [a]
+    56                                          repeta:
+    57 00000056 38D8                                cmp AL, BL
+    58 00000058 7415                                jz da
+    59 0000005A 66D1E8                              shr AX, 1
+    60 0000005D E2F7                                loop repeta
+    61                                          
+    62                                          nu:
+    63 0000005F 68[0C000000]                        push mesaj_nu
+    64 00000064 FF15[00000000]                      call [printf]
+    65 0000006A 83C404                              add esp, 4
+    66 0000006D EB0E                                jmp gata
+    67                                          
+    68                                          da:
+    69 0000006F 68[09000000]                        push mesaj_da
+    70 00000074 FF15[00000000]                      call [printf]
+    71 0000007A 83C404                              add esp, 4
+    72                                              
+    73                                          gata:
+    74                                          ; exit(0)
+    75 0000007D 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    76 0000007F FF15[00000000]                  call    [exit]       ; call exit to terminate the program
