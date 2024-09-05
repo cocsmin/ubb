@@ -1,0 +1,28 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  global verificare_prim
+     4                                  
+     5                                  segment code use32 class=code
+     6                                      verificare_prim:
+     7 00000000 83F801                          cmp EAX, 1
+     8 00000003 741F                            je nu_e_prim
+     9 00000005 B902000000                      mov ECX, 2
+    10                                          imparte:
+    11 0000000A 39C1                                cmp ECX, EAX
+    12 0000000C 7413                                je e_prim
+    13 0000000E BA00000000                          mov EDX, 0
+    14 00000013 89C3                                mov EBX, EAX
+    15 00000015 F7F1                                div ECX
+    16 00000017 83FA00                              cmp EDX, 0
+    17 0000001A 7408                                jz nu_e_prim
+    18 0000001C 89D8                                mov EAX, EBX
+    19 0000001E 41                                  inc ECX
+    20 0000001F EBE9                                jmp imparte
+    21                                              
+    22                                          e_prim:
+    23 00000021 B001                                mov AL, 1
+    24 00000023 C3                                  ret
+    25                                          
+    26                                          nu_e_prim:
+    27 00000024 B000                                mov AL, 0
+    28 00000026 C3                                  ret

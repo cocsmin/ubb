@@ -1,0 +1,80 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, printf, scanf, verificare_prim ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll
+     9                                  import printf msvcrt.dll
+    10                                  import scanf msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    11                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    12                                  
+    13                                  ; our data is declared here (the variables needed by our program)
+    14                                  segment data use32 class=data
+    15                                      ; ...
+    16 00000000 256400                      format_nr db '%d', 0
+    17 00000003 4E756D6172756C2025-         format2 db 'Numarul %d este prim',13,10, 0
+    17 0000000C 642065737465207072-
+    17 00000015 696D0D0A00         
+    18 0000001A 496E74726F64756365-         mesaj_citire db 'Introduceti numerele intregi (introduceti 0 pentru a incheia citirea): ',13 , 10, 0
+    18 00000023 7469206E756D657265-
+    18 0000002C 6C6520696E74726567-
+    18 00000035 692028696E74726F64-
+    18 0000003E 756365746920302070-
+    18 00000047 656E74727520612069-
+    18 00000050 6E6368656961206369-
+    18 00000059 7469726561293A200D-
+    18 00000062 0A00               
+    19 00000064 00000000                    numar dd 0
+    20 00000068 4E756D6572656C6520-         mesaj_afisare db 'Numerele prime sunt',13 ,10, 0
+    20 00000071 7072696D652073756E-
+    20 0000007A 740D0A00           
+    21 0000007E 00000000                    sir dd 0
+    22                                  
+    23                                  ; our code starts here
+    24                                  segment code use32 class=code
+    25                                      start:
+    26 00000000 68[1A000000]                    push dword mesaj_citire
+    27 00000005 FF15[00000000]                  call [printf]
+    28 0000000B 83C404                          add esp, 4*1
+    29                                          citeste:
+    30                                              ;mov eax, [numar]
+    31 0000000E 68[64000000]                        push dword numar
+    32 00000013 68[00000000]                        push dword format_nr
+    33 00000018 FF15[00000000]                      call [scanf]
+    34 0000001E 83C408                              add esp, 4*2
+    35                                              
+    36 00000021 A1[64000000]                        mov EAX, [numar]
+    37 00000026 E8(00000000)                        call verificare_prim
+    38 0000002B 3C01                                cmp AL, 1
+    39 0000002D 7514                                jne nu_afisa
+    40                                              
+    41 0000002F FF35[64000000]                      push dword [numar]
+    42 00000035 68[03000000]                        push dword format2
+    43 0000003A FF15[00000000]                      call [printf]
+    44 00000040 83C408                              add esp, 4*2
+    45                                              nu_afisa:
+    46 00000043 833D[64000000]00                    cmp dword[numar], 0
+    47 0000004A 7FC2                                jg citeste        
+    48                                      
+    49                                          ; exit(0)
+    50 0000004C 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    51 0000004E FF15[00000000]                  call    [exit]       ; call exit to terminate the program
+    52                                          
+    53                                          ;input: in EAX e numarul care urmeaza sa fie verficat
+    54                                          ;output: in AL se pune 1 daca e prim si 0 daca nu e prim
+    55                                          ; mov CX, 0
+    56                                          ; mov BX, 1
+    57                                          ; imparte:
+    58                                              ; mov EAX, [ESP+4]
+    59                                              ; div BX
+    60                                              ; cwde
+    61                                              ; cmp DX, 0
+    62                                              ; jne nu_creste
+    63                                              ; inc CX
+    64                                              ; nu_creste:
+    65                                              ; cmp BX, [ESP+4]
+    66                                              ; je final
+    67                                              ; inc BX
+    68                                          ; final:
