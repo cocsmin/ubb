@@ -1,0 +1,52 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                      ; ...
+    14                                      ;Dandu-se un sir de cuvinte sa se obtina sirul (de octeti) cifrelor in baza zece ale fiecarui cuvant din acest sir.
+    15 00000000 39302A518FB3                sir dw 12345, 20778, 45967
+    16                                      ; cifre = 1, 2, 3, 4, 5, 2, 0, 7, 7, 8, 4, 5, 9, 6, 7
+    17                                      L equ ($-sir)/2
+    18 00000006 1027                        cf dw 10000
+    19 00000008 0A                          zece db 10
+    20 00000009 0000                        aux dw 0
+    21 0000000B 00<rept>                    cifre times L*L db 0
+    22                                      
+    23                                  
+    24                                  ; our code starts here
+    25                                  segment code use32 class=code
+    26                                      start:
+    27                                          ; ...
+    28 00000000 BE[00000000]                    mov ESI, sir
+    29 00000005 BF[0B000000]                    mov EDI, cifre
+    30 0000000A B903000000                      mov ECX, L
+    31                                          conversie:
+    32 0000000F E332                                jecxz final
+    33 00000011 66AD                                lodsw 
+    34 00000013 66BB0500                            mov BX, 5
+    35                                              cifra:
+    36 00000017 66BA0000                                mov DX, 0
+    37 0000001B 66F735[06000000]                        div word[cf]
+    38 00000022 66AB                                    stosw
+    39 00000024 66A1[06000000]                          mov AX, word[cf]
+    40 0000002A F625[08000000]                          mul byte[zece]
+    41 00000030 66A3[06000000]                          mov word[cf], AX
+    42 00000036 6689D0                                  mov AX, DX
+    43 00000039 664B                                    dec BX
+    44 0000003B 6683FB00                                cmp BX, 0
+    45 0000003F 75D6                                    jne cifra
+    46                                              sfarsit:
+    47                                                  
+    48 00000041 E2CC                            loop conversie
+    49                                          final:
+    50                                          ; exit(0)
+    51 00000043 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    52 00000045 FF15[00000000]                  call    [exit]       ; call exit to terminate the program
