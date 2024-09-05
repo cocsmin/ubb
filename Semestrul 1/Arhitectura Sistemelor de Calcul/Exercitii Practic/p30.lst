@@ -1,0 +1,55 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, printf, scanf             ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import printf msvcrt.dll
+    11                                  import scanf msvcrt.dll
+    12                                  ; our data is declared here (the variables needed by our program)
+    13                                  segment data use32 class=data
+    14                                      ; ...
+    15                                      ;Se citesc de la tastatura numere (in baza 10) pana cand se introduce cifra 0. Determinaţi şi afişaţi cel mai mic număr dintre cele citite.
+    16 00000000 00000000                    x dd 0
+    17 00000004 80969800                    minim dd 10000000
+    18 00000008 496E74726F64756365-         mesaj db "Introduceti numarul: ", 10, 13, 0
+    18 00000011 7469206E756D617275-
+    18 0000001A 6C3A200A0D00       
+    19 00000020 256400                      format db "%d", 0
+    20 00000023 4D696E696D756C2065-         afisare db "Minimul este %d", 0
+    20 0000002C 73746520256400     
+    21                                      
+    22                                  ; our code starts here
+    23                                  segment code use32 class=code
+    24                                      start:
+    25                                          ; ...
+    26                                          citeste:
+    27 00000000 68[08000000]                        push mesaj
+    28 00000005 FF15[00000000]                      call [printf]
+    29 0000000B 83C404                              add esp, 4
+    30                                              
+    31 0000000E 68[00000000]                        push x
+    32 00000013 68[20000000]                        push format
+    33 00000018 FF15[00000000]                      call [scanf]
+    34 0000001E 83C408                              add esp, 4*2
+    35                                              
+    36 00000021 A1[00000000]                        mov EAX, [x]
+    37 00000026 3905[04000000]                      cmp [minim], EAX
+    38 0000002C 7C05                                jl next
+    39 0000002E A3[04000000]                        mov [minim], EAX
+    40                                              next
+    40          ******************       warning: label alone on a line without a colon might be in error [-w+orphan-labels]
+    41 00000033 833D[00000000]00                    cmp dword[x], 0
+    42 0000003A 75C4                                jne citeste
+    43                                              
+    44 0000003C FF35[04000000]                  push dword[minim]
+    45 00000042 68[23000000]                    push afisare
+    46 00000047 FF15[00000000]                  call [printf]
+    47 0000004D 83C408                          add esp, 4*2
+    48                                      
+    49                                          ; exit(0)
+    50 00000050 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    51 00000052 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

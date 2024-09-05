@@ -1,0 +1,57 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, printf, scanf            ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import scanf msvcrt.dll
+    11                                  import printf msvcrt.dll
+    12                                  ; our data is declared here (the variables needed by our program)
+    13                                  segment data use32 class=data
+    14                                      ; ...
+    15                                      ;Sa se citeasca de la tastatura un numar hexazecimal format din 2 cifre. Sa se afiseze pe ecran acest numar in baza 10, interpretat atat ca numar fara semn cat si ca numar cu semn (pe 8 biti).
+    16 00000000 00000000                    numar dd 0
+    17 00000004 00000000                    x dd 0
+    18 00000008 00000000                    y dd 0
+    19 0000000C 496E74726F64756365-         mesaj db "Introduceti numarul: ", 0
+    19 00000015 7469206E756D617275-
+    19 0000001E 6C3A2000           
+    20 00000022 257800                      hexa db "%x", 0
+    21 00000025 256400                      deca db "%d", 0
+    22 00000028 466172612073656D6E-         afisare db "Fara semn: %d // Cu semn: %d ", 0
+    22 00000031 3A202564202F2F2043-
+    22 0000003A 752073656D6E3A2025-
+    22 00000043 642000             
+    23                                      
+    24                                  
+    25                                  ; our code starts here
+    26                                  segment code use32 class=code
+    27                                      start:
+    28                                          ; ...
+    29 00000000 68[0C000000]                    push mesaj
+    30 00000005 FF15[00000000]                  call [printf]
+    31 0000000B 83C404                          add esp, 4
+    32                                          
+    33 0000000E 68[00000000]                    push numar
+    34 00000013 68[22000000]                    push hexa
+    35 00000018 FF15[00000000]                  call [scanf]
+    36 0000001E 83C408                          add esp, 4*2
+    37                                          
+    38 00000021 A1[00000000]                    mov EAX, [numar]
+    39 00000026 A3[08000000]                    mov [y], EAX
+    40 0000002B 2D00010000                      sub EAX, 256 ; pt stim ca e pe 8 biti
+    41 00000030 A3[04000000]                    mov [x], EAX
+    42                                          
+    43                                          
+    44 00000035 FF35[04000000]                  push dword[x]
+    45 0000003B FF35[08000000]                  push dword[y]
+    46 00000041 68[28000000]                    push afisare
+    47 00000046 FF15[00000000]                  call [printf]
+    48 0000004C 83C40C                          add esp, 4*3
+    49                                      
+    50                                          ; exit(0)
+    51 0000004F 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    52 00000051 FF15[00000000]                  call    [exit]       ; call exit to terminate the program
