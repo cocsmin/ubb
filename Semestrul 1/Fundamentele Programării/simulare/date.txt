@@ -1,0 +1,10 @@
+1, Haine munte SRL, geaca, 100
+2, Incaltaminte Cluj-Napoca, bocanci, 240
+3, Killer, tricou, 50
+4, Converse, tenisi, 400
+5, Dr. Martens, bocanci, 900
+6, UCluj, sapca, 150
+7, Nike, adidasi, 500
+8, Gucci, geaca, 3000
+9, Lidl, tricou, 25
+10, Converse, tricou, 200
