@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+      <FILENAME>domain.h</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Film::an' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Film::{ctor}</FUNCTION>
+    <DECORATED>??0Film@@QEAA@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Film::an</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+      <FILENAME>repository.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26800</DEFECTCODE>
+    <DESCRIPTION>Use of a moved from object: ''m'' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ExceptieRepo::{ctor}</FUNCTION>
+    <DECORATED>??0ExceptieRepo@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>repository.h</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>repository.h</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>60</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>repository.h</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>50</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>Custom</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Object 'm' is moved.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>repository.h</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+      <FILENAME>vector.h</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Film&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorDinamic@VFilm@@@@QEAA@$$QEAV0@@Z</DECORATED>
+    <FUNCLINE>62</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+      <FILENAME>vector.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'elemente'.</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Film&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorDinamic@VFilm@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;obiect.dimensiune')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>41</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;obiect.dimensiune')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'Film::=' (declared at c:\users\ungur\onedrive\desktop\sem 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\domain.h:40)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'elemente[1]', (readable range is 0 to 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

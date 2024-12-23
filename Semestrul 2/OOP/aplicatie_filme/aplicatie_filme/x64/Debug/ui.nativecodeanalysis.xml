@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+      <FILENAME>domain.h</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Film::an' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Film::{ctor}</FUNCTION>
+    <DECORATED>??0Film@@QEAA@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Film::an</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+      <FILENAME>repository.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26800</DEFECTCODE>
+    <DESCRIPTION>Use of a moved from object: ''m'' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ExceptieRepo::{ctor}</FUNCTION>
+    <DECORATED>??0ExceptieRepo@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>repository.h</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>repository.h</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>60</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>repository.h</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>50</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>Custom</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Object 'm' is moved.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+        <FILENAME>repository.h</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

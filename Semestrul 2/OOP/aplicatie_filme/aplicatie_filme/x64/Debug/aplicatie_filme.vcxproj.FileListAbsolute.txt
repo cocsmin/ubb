@@ -1,0 +1,2 @@
+C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\x64\Debug\aplicatie_filme.exe.lastcodeanalysissucceeded
+C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\x64\Debug\NativeCodeAnalysis.read.1.tlog

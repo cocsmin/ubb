@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\</FILEPATH>
+      <FILENAME>domain.h</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Film::an' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Film::{ctor}</FUNCTION>
+    <DECORATED>??0Film@@QEAA@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Film::an</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
