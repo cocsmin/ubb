@@ -1,0 +1,10 @@
+total 160
+-rw-r--r--  1 cosmin  staff    636 Apr  9 08:32 ex_fork
+-rw-r--r--  1 cosmin  staff      0 Apr  9 08:41 file_list
+-rw-r--r--  1 cosmin  staff      0 Apr  9 08:28 fork1
+-rw-r--r--  1 cosmin  staff      0 Apr  9 08:27 fork1.c
+-rwxr-xr-x  1 cosmin  staff  34024 Apr  9 08:25 fork1.exe
+drwxr-xr-x  3 cosmin  staff     96 Apr  9 08:24 fork1.exe.dSYM
+-rwxr-xr-x  1 cosmin  staff  34152 Apr  9 08:40 fork2
+-rw-r--r--  1 cosmin  staff    916 Apr  9 08:40 fork2.c
+drwxr-xr-x  3 cosmin  staff     96 Apr  9 08:40 fork2.dSYM
