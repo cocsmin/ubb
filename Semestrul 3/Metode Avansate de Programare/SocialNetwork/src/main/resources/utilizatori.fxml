@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #616161;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="map.socialnetwork.UserController">
+    <children>
+        <Text layoutX="6.0" layoutY="40.0" text="UTILIZATORI" textAlignment="CENTER" wrappingWidth="920.0">
+            <font>
+                <Font name="DejaVu Sans Bold" size="32.0" />
+            </font>
+        </Text>
+
+        <TableView fx:id="tableView" layoutX="40.0" layoutY="100.0" prefHeight="300.0" prefWidth="920.0" style="-fx-background-color: #424242; -fx-border-color: #5c5c5c;">
+            <columns>
+                <TableColumn fx:id="tableUserId" minWidth="180.0" prefWidth="180.0" text="id" />
+                <TableColumn fx:id="tableUserFirstName" minWidth="250.0" prefWidth="250.0" text="nume" />
+                <TableColumn fx:id="tableUserLastName" minWidth="250.0" prefWidth="250.0" text="prenume" />
+            </columns>
+        </TableView>
+
+        <HBox alignment="CENTER" spacing="10" layoutX="220.0" layoutY="400.0">
+            <Button text="Pagina anterioara" onAction="#handlePreviousPage" fx:id="previousPageButton"  style="-fx-background-color: #5c5c5c; -fx-text-fill: white; -fx-border-color: #ffffff;"/>
+            <Button text="Pagina urmatoare" onAction="#handleNextPage" fx:id="nextPageButton"  style="-fx-background-color: #5c5c5c; -fx-text-fill: white; -fx-border-color: #ffffff;"/>
+            <TextField fx:id="numar_pagini" promptText="Nr utilizatori/pagina" style="-fx-background-color: #3a3a3a;-fx-text-fill: white; -fx-border-color: #5c5c5c;" />
+        </HBox>
+
+        <SplitPane dividerPositions="0.5" layoutX="40.0" layoutY="430.0" orientation="HORIZONTAL" prefHeight="120.0" prefWidth="920.0" style="-fx-background-color: #3A3A3A; -fx-border-color: #5C5C5C;">
+            <items>
+                <VBox alignment="CENTER" spacing="12.0" style="-fx-background-color: #424242; -fx-border-color: #5C5C5C;">
+                    <children>
+                        <TextField fx:id="searchField1" promptText="Cauta dupa nume" prefWidth="250.0" style="-fx-background-color: #555555;-fx-text-fill: white; -fx-border-color: #888888;" />
+                        <TextField fx:id="searchField2" promptText="Cauta dupa prenume" prefWidth="250.0" style="-fx-background-color: #555555;-fx-text-fill: white; -fx-border-color: #888888;" />
+                        <Button onAction="#handleSearch" text="Cauta utilizator" style="-fx-background-color: #616161; -fx-text-fill: white; -fx-border-color: #757575;" />
+                    </children>
+                </VBox>
+
+                <VBox alignment="CENTER" spacing="12.0" style="-fx-background-color: #424242; -fx-border-color: #5C5C5C;">
+                    <children>
+                        <Button onAction="#handleAddUser" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: #616161; -fx-border-color: #757575;  -fx-text-fill: white;" text="Adauga un prieten">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Button>
+                        <Button onAction="#handleDeleteUser" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: #616161; -fx-border-color: #757575; -fx-text-fill: white;" text="Sterge prietenia">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Button>
+                        <Button onAction="#handleOpenChat" prefHeight="50.0" prefWidth="180.0"
+                                style="-fx-background-color: #616161; -fx-border-color: #757575; -fx-text-fill: white;"
+                                text="Conversație">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </VBox>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>
