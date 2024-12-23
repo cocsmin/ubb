@@ -11,8 +11,7 @@ Semestrul 2:
 - [Structuri de Date si Algoritmi](https://github.com/cocsmin/ubb/tree/main/Semestrul%202/Structuri%20de%20Date%20si%20Algoritmi)
 
 Semestrul 3:
-- [Metode Avansate de Programare]()
-- [Probabilitati si Statistica]()
-- [Baze de Date]()
-- [Programare Logica si Functionala]()
-- [Retele de Calculatoare]()
+- [Metode Avansate de Programare](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Metode%20Avansate%20de%20Programare)
+- [Baze de Date](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Baze%20de%20Date)
+- [Programare Logica si Functionala](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Programare%20Logica%20si%20Functionala)
+- [Retele de Calculatoare](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Retele%20de%20Calculatoare)
