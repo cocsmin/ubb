@@ -1,0 +1,3 @@
+/Users/cosmin/Downloads/sda/cmake-build-debug/CMakeFiles/sda.dir
+/Users/cosmin/Downloads/sda/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cosmin/Downloads/sda/cmake-build-debug/CMakeFiles/rebuild_cache.dir
