@@ -1,0 +1,1 @@
+dd if=/dev/urandom of=file.bin bs=4 count=100000
