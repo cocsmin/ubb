@@ -9,3 +9,10 @@ Semestrul 2:
 - [Algoritmica Grafurilor](https://github.com/cocsmin/ubb/tree/main/Semestrul%202/Algoritmica%20Grafurilor)
 - [Sisteme de Operare](https://github.com/cocsmin/ubb/tree/main/Semestrul%202/Sisteme%20de%20Operare)
 - [Structuri de Date si Algoritmi](https://github.com/cocsmin/ubb/tree/main/Semestrul%202/Structuri%20de%20Date%20si%20Algoritmi)
+
+Semestrul 3:
+- [Metode Avansate de Programare]()
+- [Probabilitati si Statistica]()
+- [Baze de Date]()
+- [Programare Logica si Functionala]()
+- [Retele de Calculatoare]()
