@@ -2,7 +2,7 @@
 
 Semestrul 1:
 - [Arhitectura Sistemelor de Calcul](https://github.com/cocsmin/ubb/tree/main/Semestrul%201/Arhitectura%20Sistemelor%20de%20Calcul)
-- [Fundamentele Programarii]()
+- [Fundamentele Programarii](https://github.com/cocsmin/ubb/tree/main/Semestrul%201/Fundamentele%20Programării)
 
 Semestrul 2:
 - [Programare Orientata Obiect]()
