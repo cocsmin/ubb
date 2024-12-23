@@ -1,0 +1,6 @@
+/dev
+/dev/shm
+/run/lock
+/sys/fs/cgroup
+/run/user/1000
+/home/rares/osvm

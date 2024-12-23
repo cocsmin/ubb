@@ -1,0 +1,8 @@
+are 4
+mere 2
+pere 3
+cox 68
+are 4
+da 5
+mult 6 
+are 7
