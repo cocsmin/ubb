@@ -1,0 +1,42 @@
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/obj/Debug/net8.0/lab9.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/obj/Debug/net8.0/lab9.AssemblyInfoInputs.cache
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/obj/Debug/net8.0/lab9.AssemblyInfo.cs
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/obj/Debug/net8.0/lab9.csproj.CoreCompileInputs.cache
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/bin/Debug/net8.0/lab9.exe
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/bin/Debug/net8.0/lab9.deps.json
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/bin/Debug/net8.0/lab9.runtimeconfig.json
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/bin/Debug/net8.0/lab9.dll
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/bin/Debug/net8.0/lab9.pdb
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/obj/Debug/net8.0/lab9.dll
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/obj/Debug/net8.0/refint/lab9.dll
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/obj/Debug/net8.0/lab9.pdb
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/obj/Debug/net8.0/lab9.genruntimeconfig.cache
+C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_1/metode avansate de programare/lab9/lab9/obj/Debug/net8.0/ref/lab9.dll
+/Users/cosmin/Downloads/lab9/lab9/bin/Debug/net8.0/lab9
+/Users/cosmin/Downloads/lab9/lab9/bin/Debug/net8.0/lab9.deps.json
+/Users/cosmin/Downloads/lab9/lab9/bin/Debug/net8.0/lab9.runtimeconfig.json
+/Users/cosmin/Downloads/lab9/lab9/bin/Debug/net8.0/lab9.dll
+/Users/cosmin/Downloads/lab9/lab9/bin/Debug/net8.0/lab9.pdb
+/Users/cosmin/Downloads/lab9/lab9/obj/Debug/net8.0/lab9.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cosmin/Downloads/lab9/lab9/obj/Debug/net8.0/lab9.AssemblyInfoInputs.cache
+/Users/cosmin/Downloads/lab9/lab9/obj/Debug/net8.0/lab9.AssemblyInfo.cs
+/Users/cosmin/Downloads/lab9/lab9/obj/Debug/net8.0/lab9.csproj.CoreCompileInputs.cache
+/Users/cosmin/Downloads/lab9/lab9/obj/Debug/net8.0/lab9.dll
+/Users/cosmin/Downloads/lab9/lab9/obj/Debug/net8.0/refint/lab9.dll
+/Users/cosmin/Downloads/lab9/lab9/obj/Debug/net8.0/lab9.pdb
+/Users/cosmin/Downloads/lab9/lab9/obj/Debug/net8.0/lab9.genruntimeconfig.cache
+/Users/cosmin/Downloads/lab9/lab9/obj/Debug/net8.0/ref/lab9.dll
+/Users/cosmin/Documents/facultate/sem3/map/lab9/bin/Debug/net8.0/lab9
+/Users/cosmin/Documents/facultate/sem3/map/lab9/bin/Debug/net8.0/lab9.deps.json
+/Users/cosmin/Documents/facultate/sem3/map/lab9/bin/Debug/net8.0/lab9.runtimeconfig.json
+/Users/cosmin/Documents/facultate/sem3/map/lab9/bin/Debug/net8.0/lab9.dll
+/Users/cosmin/Documents/facultate/sem3/map/lab9/bin/Debug/net8.0/lab9.pdb
+/Users/cosmin/Documents/facultate/sem3/map/lab9/obj/Debug/net8.0/lab9.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cosmin/Documents/facultate/sem3/map/lab9/obj/Debug/net8.0/lab9.AssemblyInfoInputs.cache
+/Users/cosmin/Documents/facultate/sem3/map/lab9/obj/Debug/net8.0/lab9.AssemblyInfo.cs
+/Users/cosmin/Documents/facultate/sem3/map/lab9/obj/Debug/net8.0/lab9.csproj.CoreCompileInputs.cache
+/Users/cosmin/Documents/facultate/sem3/map/lab9/obj/Debug/net8.0/lab9.dll
+/Users/cosmin/Documents/facultate/sem3/map/lab9/obj/Debug/net8.0/refint/lab9.dll
+/Users/cosmin/Documents/facultate/sem3/map/lab9/obj/Debug/net8.0/lab9.pdb
+/Users/cosmin/Documents/facultate/sem3/map/lab9/obj/Debug/net8.0/lab9.genruntimeconfig.cache
+/Users/cosmin/Documents/facultate/sem3/map/lab9/obj/Debug/net8.0/ref/lab9.dll
