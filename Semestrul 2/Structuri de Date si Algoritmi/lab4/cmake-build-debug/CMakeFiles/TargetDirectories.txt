@@ -1,0 +1,3 @@
+/Users/cosmin/Documents/facultate/sda_lab4/cmake-build-debug/CMakeFiles/sda_lab4.dir
+/Users/cosmin/Documents/facultate/sda_lab4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cosmin/Documents/facultate/sda_lab4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
