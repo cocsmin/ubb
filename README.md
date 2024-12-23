@@ -8,4 +8,4 @@ Semestrul 2:
 - [Programare Orientata Obiect]()
 - [Algoritmica Grafurilor]()
 - [Sisteme de Operare]()
-- [Structuri de Date si Algoritmi]()
+- [Structuri de Date si Algoritmi](https://github.com/cocsmin/ubb/tree/main/Semestrul%202/Structuri%20de%20Date%20si%20Algoritmi)
