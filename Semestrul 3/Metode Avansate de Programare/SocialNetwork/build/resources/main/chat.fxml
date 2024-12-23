@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #2F2F2F;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="map.socialnetwork.ChatController">
+    <children>
+        <TextField fx:id="cautare5" promptText="Cauta dupa nume" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" prefWidth="250.0"
+                   style="-fx-background-color: #555555; -fx-text-fill: white; -fx-border-color: #888888;"/>
+        <TextField fx:id="cautare6" promptText="Cauta dupa prenume" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="20.0" prefWidth="250.0"
+                   style="-fx-background-color: #555555; -fx-text-fill: white; -fx-border-color: #888888;"/>
+        <Button fx:id="chooseButton" text="Alege" onAction="#onChooseButtonClick" AnchorPane.leftAnchor="540.0" AnchorPane.topAnchor="20.0"
+                style="-fx-background-color: #616161; -fx-text-fill: white; -fx-border-color: #757575;"/>
+        <Label fx:id="utilizatoriAlesi" text="Utilizatori aleși:" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="60.0"
+               style="-fx-text-fill: white; -fx-font-size: 14px;"/>
+        <ListView fx:id="utilizatoriList" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="100.0" prefHeight="150.0" prefWidth="560.0"
+                  style="-fx-background-color: #424242; -fx-border-color: #5C5C5C;"/>
+
+        <TextArea fx:id="chat" editable="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="260.0" prefWidth="560.0"
+                  style="-fx-background-color: #424242; -fx-border-color: #5C5C5C; -fx-text-fill: blue;"/>
+        <TextField fx:id="mesaje" promptText="Scrie mesajul" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="520.0" prefWidth="460.0"
+                   style="-fx-background-color: #555555; -fx-text-fill: white; -fx-border-color: #888888;"/>
+        <Button fx:id="sendButton" text="Trimite" onAction="#onSendButtonClick" AnchorPane.leftAnchor="520.0" AnchorPane.topAnchor="520.0"
+                style="-fx-background-color: #616161; -fx-text-fill: white; -fx-border-color: #757575;"/>
+        <Button fx:id="replyButton" text="Reply" onAction="#onReplyButtonClick" AnchorPane.leftAnchor="520.0" AnchorPane.topAnchor="580.0"
+                style="-fx-background-color: #616161; -fx-text-fill: white; -fx-border-color: #757575;"/>
+    </children>
+</AnchorPane>

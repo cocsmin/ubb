@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="map.socialnetwork.LoginController" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #3A3A3A;">
+    <children>
+        <!-- Imaginea lupului -->
+        <ImageView fitHeight="400.0" fitWidth="300.0" layoutX="50.0" layoutY="100.0">
+            <image>
+                <Image url="@GJKuMmNXsAA5_hi.jpg" />
+            </image>
+        </ImageView>
+
+        <!-- Secțiunea de autentificare -->
+        <VBox alignment="CENTER" layoutX="400.0" layoutY="150.0" spacing="20.0" style="-fx-background-color: #3A3A3A; -fx-padding: 20; -fx-border-color: #5C5C5C; -fx-border-width: 2;">
+            <children>
+                <Label text="Autentificare" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #F1F1F1;" />
+                <TextField fx:id="cauta_nume" promptText="Nume" style="-fx-background-color: #555555; -fx-text-fill: white; -fx-border-color: #888888;" prefWidth="300.0" />
+                <TextField fx:id="cauta_prenume" promptText="Prenume" style="-fx-background-color: #555555; -fx-text-fill: white; -fx-border-color: #888888;" prefWidth="300.0" />
+                <PasswordField fx:id="cauta_parola" promptText="Parola" style="-fx-background-color: #555555; -fx-text-fill: white; -fx-border-color: #888888;" prefWidth="300.0" />
+                <Button text="Login" onAction="#handleLogin" style="-fx-background-color: #757575; -fx-text-fill: white;" prefWidth="150.0" />
+                <Label fx:id="errorLabel" textFill="red" style="-fx-font-size: 14px;" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
