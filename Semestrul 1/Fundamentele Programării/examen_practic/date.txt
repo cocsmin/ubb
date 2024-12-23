@@ -1,0 +1,10 @@
+Bomba,Specii,Jazz,02.02.2004
+Helena,MCR,Rock,17.07.2004
+SOS,5Gang,Pop,17.07.2018
+Ciocolata,Tzanca Uraganu,Pop,08.03.2019
+Lover,Taylor Swift,Jazz,15.12.2013
+Animals,Maroon 5,Pop,03.02.2013
+Lithium,Nirvana,Rock,18.09.1993
+Before I Forget,Slipknot,Rock,15.07.1994
+You'll Never Find Me,Korn,Rock,28.03.1997
+Freak On A Leash,Korn,Rock,13.12.1992
