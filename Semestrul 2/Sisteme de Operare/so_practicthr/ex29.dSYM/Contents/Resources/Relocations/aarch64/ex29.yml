@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     ex29
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _pthread_barrier_init, symObjAddr: 0x0, symBinAddr: 0x100003808, symSize: 0xCC }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _mtx, symObjAddr: 0x630, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xAC, offset: 0xAC, size: 0x8, addend: 0x0, symName: _n, symBinAddr: 0x1000080B8, symSize: 0x0 }
+  - { offsetInCU: 0xC8, offset: 0xC8, size: 0x8, addend: 0x0, symName: _sir, symBinAddr: 0x1000080BC, symSize: 0x0 }
+  - { offsetInCU: 0xEC, offset: 0xEC, size: 0x8, addend: 0x0, symName: _barr, symBinAddr: 0x100008040, symSize: 0x0 }
+  - { offsetInCU: 0x17E, offset: 0x17E, size: 0x8, addend: 0x0, symName: _pthread_barrier_init, symObjAddr: 0x0, symBinAddr: 0x100003808, symSize: 0xCC }
+  - { offsetInCU: 0x1C2, offset: 0x1C2, size: 0x8, addend: 0x0, symName: _pthread_barrier_destroy, symObjAddr: 0xCC, symBinAddr: 0x1000038D4, symSize: 0x34 }
+  - { offsetInCU: 0x1EA, offset: 0x1EA, size: 0x8, addend: 0x0, symName: _pthread_barrier_wait, symObjAddr: 0x100, symBinAddr: 0x100003908, symSize: 0xA0 }
+  - { offsetInCU: 0x212, offset: 0x212, size: 0x8, addend: 0x0, symName: _do_work, symObjAddr: 0x1A0, symBinAddr: 0x1000039A8, symSize: 0x254 }
+  - { offsetInCU: 0x264, offset: 0x264, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3F4, symBinAddr: 0x100003BFC, symSize: 0x238 }
+...

@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '12'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _pthread_barrier_init, symObjAddr: 0x0, symBinAddr: 0x100003988, symSize: 0xCC }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _mtx, symObjAddr: 0x538, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xAC, offset: 0xAC, size: 0x8, addend: 0x0, symName: _matrice, symBinAddr: 0x100008044, symSize: 0x0 }
+  - { offsetInCU: 0xDB, offset: 0xDB, size: 0x8, addend: 0x0, symName: _n, symBinAddr: 0x1003D8944, symSize: 0x0 }
+  - { offsetInCU: 0xF0, offset: 0xF0, size: 0x8, addend: 0x0, symName: _m, symBinAddr: 0x100008040, symSize: 0x0 }
+  - { offsetInCU: 0x105, offset: 0x105, size: 0x8, addend: 0x0, symName: _suma_totala, symBinAddr: 0x1003D8948, symSize: 0x0 }
+  - { offsetInCU: 0x113, offset: 0x113, size: 0x8, addend: 0x0, symName: _pthread_barrier_init, symObjAddr: 0x0, symBinAddr: 0x100003988, symSize: 0xCC }
+  - { offsetInCU: 0x157, offset: 0x157, size: 0x8, addend: 0x0, symName: _pthread_barrier_destroy, symObjAddr: 0xCC, symBinAddr: 0x100003A54, symSize: 0x34 }
+  - { offsetInCU: 0x17F, offset: 0x17F, size: 0x8, addend: 0x0, symName: _pthread_barrier_wait, symObjAddr: 0x100, symBinAddr: 0x100003A88, symSize: 0xA0 }
+  - { offsetInCU: 0x1A7, offset: 0x1A7, size: 0x8, addend: 0x0, symName: _do_work, symObjAddr: 0x1A0, symBinAddr: 0x100003B28, symSize: 0xD8 }
+  - { offsetInCU: 0x207, offset: 0x207, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x278, symBinAddr: 0x100003C00, symSize: 0x2C0 }
+...
