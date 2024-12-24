@@ -1,4 +1,7 @@
-# ubb
+# ubb 🎓💻  
+
+This repository contains all the projects I’ve worked on during my **Computer Science** studies at Babeș-Bolyai University of Cluj-Napoca.  
+It’s updated periodically (which really means whenever I remember to).  
 
 Semestrul 1:
 - [Arhitectura Sistemelor de Calcul](https://github.com/cocsmin/ubb/tree/main/Semestrul%201/Arhitectura%20Sistemelor%20de%20Calcul)
