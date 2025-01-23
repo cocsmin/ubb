@@ -18,3 +18,4 @@ Semestrul 3:
 - [Baze de Date](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Baze%20de%20Date)
 - [Programare Logica si Functionala](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Programare%20Logica%20si%20Functionala)
 - [Retele de Calculatoare](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Retele%20de%20Calculatoare)
+- [Probabilitati si Statistica](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Probabilitati%20si%20Statistica)
