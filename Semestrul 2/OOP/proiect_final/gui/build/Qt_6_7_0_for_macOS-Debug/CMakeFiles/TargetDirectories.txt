@@ -1,0 +1,9 @@
+/Users/cosmin/CLionProjects/oop_lab7/gui/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/gui.dir
+/Users/cosmin/CLionProjects/oop_lab7/gui/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/cosmin/CLionProjects/oop_lab7/gui/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/cosmin/CLionProjects/oop_lab7/gui/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/cosmin/CLionProjects/oop_lab7/gui/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/install.dir
+/Users/cosmin/CLionProjects/oop_lab7/gui/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/cosmin/CLionProjects/oop_lab7/gui/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/cosmin/CLionProjects/oop_lab7/gui/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/gui_autogen_timestamp_deps.dir
+/Users/cosmin/CLionProjects/oop_lab7/gui/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/gui_autogen.dir
