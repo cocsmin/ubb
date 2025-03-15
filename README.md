@@ -19,3 +19,10 @@ Semestrul 3:
 - [Programare Logica si Functionala](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Programare%20Logica%20si%20Functionala)
 - [Retele de Calculatoare](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Retele%20de%20Calculatoare)
 - [Probabilitati si Statistica](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Probabilitati%20si%20Statistica)
+
+Semestrul 4:
+- [Medii de Proiectare si Programare]()
+- [Ingineria Sistemelor Soft]()
+- [Inteligenta Artificiala]()
+- [Sisteme de Gestiune a Bazelor de Date]()
+- [Programare Web]()
