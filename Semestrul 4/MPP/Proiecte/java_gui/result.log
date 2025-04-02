@@ -1,0 +1,1486 @@
+17 Mar 2025 18:10:45,712 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=sa, jdbc.url=jdbc:sqlserver://localhost;database=MPP}
+17 Mar 2025 18:10:45,714 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+17 Mar 2025 18:10:45,714 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 18:10:45,714 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 18:10:45,714 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP
+17 Mar 2025 18:10:45,715 INFO  map.repository.JdbcUtils 30 getNewConnection - user: sa
+17 Mar 2025 18:10:45,715 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+17 Mar 2025 18:10:45,820 ERROR map.repository.JdbcUtils 39 getNewConnection - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+17 Mar 2025 18:10:45,821 TRACE map.repository.JdbcUtils 54 getConnection - Exit
+17 Mar 2025 19:19:49,691 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=sa, jdbc.url=jdbc:sqlserver://localhost;database=MPP}
+17 Mar 2025 19:19:49,693 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+17 Mar 2025 19:19:49,693 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:19:49,693 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 19:19:49,694 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP
+17 Mar 2025 19:19:49,694 INFO  map.repository.JdbcUtils 30 getNewConnection - user: sa
+17 Mar 2025 19:19:49,694 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+17 Mar 2025 19:19:49,814 ERROR map.repository.JdbcUtils 39 getNewConnection - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+17 Mar 2025 19:19:49,815 TRACE map.repository.JdbcUtils 54 getConnection - Exit
+17 Mar 2025 19:20:12,420 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=sa, jdbc.url=jdbc:sqlserver://localhost;database=MPP}
+17 Mar 2025 19:20:12,422 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+17 Mar 2025 19:20:12,422 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:20:12,423 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 19:20:12,423 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP
+17 Mar 2025 19:20:12,423 INFO  map.repository.JdbcUtils 30 getNewConnection - user: sa
+17 Mar 2025 19:20:12,423 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+17 Mar 2025 19:20:12,530 ERROR map.repository.JdbcUtils 39 getNewConnection - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+17 Mar 2025 19:20:12,531 TRACE map.repository.JdbcUtils 54 getConnection - Exit
+17 Mar 2025 19:20:29,988 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=sa, jdbc.url=jdbc:sqlserver://localhost;database=MPP}
+17 Mar 2025 19:20:29,990 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+17 Mar 2025 19:20:29,990 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:20:29,991 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 19:20:29,991 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP
+17 Mar 2025 19:20:29,991 INFO  map.repository.JdbcUtils 30 getNewConnection - user: sa
+17 Mar 2025 19:20:29,991 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+17 Mar 2025 19:20:30,093 ERROR map.repository.JdbcUtils 39 getNewConnection - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+17 Mar 2025 19:20:30,094 TRACE map.repository.JdbcUtils 54 getConnection - Exit
+17 Mar 2025 19:25:59,580 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {}
+17 Mar 2025 19:25:59,583 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+17 Mar 2025 19:25:59,583 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:25:59,583 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 19:25:59,583 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... null
+17 Mar 2025 19:25:59,583 INFO  map.repository.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 19:25:59,583 INFO  map.repository.JdbcUtils 31 getNewConnection - password: null
+17 Mar 2025 19:25:59,584 ERROR map.repository.JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+17 Mar 2025 19:25:59,585 TRACE map.repository.JdbcUtils 54 getConnection - Exit
+17 Mar 2025 19:28:14,433 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP}
+17 Mar 2025 19:28:14,435 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+17 Mar 2025 19:28:14,435 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:28:14,435 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 19:28:14,435 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP
+17 Mar 2025 19:28:14,436 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+17 Mar 2025 19:28:14,436 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+17 Mar 2025 19:28:14,743 ERROR map.repository.JdbcUtils 39 getNewConnection - com.microsoft.sqlserver.jdbc.SQLServerException: "encrypt" property is set to "true" and "trustServerCertificate" property is set to "false" but the driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption: Error: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. ClientConnectionId:f9553396-9250-46a0-8d1f-14e174717cd1
+17 Mar 2025 19:28:14,743 TRACE map.repository.JdbcUtils 54 getConnection - Exit
+17 Mar 2025 19:29:13,279 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.trustServerCertificate="true", jdbc.user=SA, jdbc.encrypt="false", jdbc.url=jdbc:sqlserver://localhost;database=MPP}
+17 Mar 2025 19:29:13,281 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+17 Mar 2025 19:29:13,281 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:29:13,281 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 19:29:13,281 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP
+17 Mar 2025 19:29:13,282 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+17 Mar 2025 19:29:13,282 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+17 Mar 2025 19:29:13,500 ERROR map.repository.JdbcUtils 39 getNewConnection - com.microsoft.sqlserver.jdbc.SQLServerException: "encrypt" property is set to "true" and "trustServerCertificate" property is set to "false" but the driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption: Error: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. ClientConnectionId:f8f9d621-d904-42c9-802d-e5dd0a0c892d
+17 Mar 2025 19:29:13,501 TRACE map.repository.JdbcUtils 54 getConnection - Exit
+17 Mar 2025 19:29:24,961 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.encrypt="false", jdbc.url=jdbc:sqlserver://localhost;database=MPP}
+17 Mar 2025 19:29:24,963 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+17 Mar 2025 19:29:24,963 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:29:24,963 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 19:29:24,963 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP
+17 Mar 2025 19:29:24,963 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+17 Mar 2025 19:29:24,963 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+17 Mar 2025 19:29:25,175 ERROR map.repository.JdbcUtils 39 getNewConnection - com.microsoft.sqlserver.jdbc.SQLServerException: "encrypt" property is set to "true" and "trustServerCertificate" property is set to "false" but the driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption: Error: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. ClientConnectionId:4abff7a0-9462-42df-849f-86616b5462d7
+17 Mar 2025 19:29:25,175 TRACE map.repository.JdbcUtils 54 getConnection - Exit
+17 Mar 2025 19:31:44,647 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+17 Mar 2025 19:31:44,650 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+17 Mar 2025 19:31:44,650 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:31:44,650 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 19:31:44,650 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+17 Mar 2025 19:31:44,650 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+17 Mar 2025 19:31:44,651 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+17 Mar 2025 19:31:44,924 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 223ed486-e0e5-4457-bf4e-f7e3b44d5903)
+17 Mar 2025 19:31:44,980 TRACE map.repository.database.VoluntarDBRepo 48 save - Exit
+17 Mar 2025 19:31:44,980 TRACE map.repository.database.VoluntarDBRepo 54 findOne - Enter findOne task{}, elem
+17 Mar 2025 19:31:44,981 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:31:44,981 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 19:31:44,981 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+17 Mar 2025 19:31:44,981 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+17 Mar 2025 19:31:44,981 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+17 Mar 2025 19:31:45,000 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 32780529-89a8-46ca-97dc-4553dbf053ce)
+17 Mar 2025 19:31:45,003 ERROR map.repository.database.VoluntarDBRepo 66 findOne - com.microsoft.sqlserver.jdbc.SQLServerException: The value is not set for the parameter number 1.
+17 Mar 2025 19:31:45,003 TRACE map.repository.database.VoluntarDBRepo 69 findOne - Exit
+17 Mar 2025 19:31:45,004 TRACE map.repository.database.VoluntarDBRepo 75 findAll - Enter findAll task{}, elem
+17 Mar 2025 19:31:45,004 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:31:45,004 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 32780529-89a8-46ca-97dc-4553dbf053ce)
+17 Mar 2025 19:31:45,030 TRACE map.repository.database.VoluntarDBRepo 96 findAll - Exit with([Entity{id=1}])
+17 Mar 2025 19:43:06,108 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+17 Mar 2025 19:43:06,111 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+17 Mar 2025 19:43:06,111 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:43:06,111 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 19:43:06,111 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+17 Mar 2025 19:43:06,111 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+17 Mar 2025 19:43:06,111 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+17 Mar 2025 19:43:06,342 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 8966fbf9-ae5e-4169-926c-3874ae743e7c)
+17 Mar 2025 19:43:06,382 TRACE map.repository.database.VoluntarDBRepo 48 save - Exit
+17 Mar 2025 19:43:06,383 TRACE map.repository.database.VoluntarDBRepo 54 findOne - Enter findOne task{}, elem
+17 Mar 2025 19:43:06,383 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:43:06,383 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 19:43:06,383 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+17 Mar 2025 19:43:06,383 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+17 Mar 2025 19:43:06,383 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+17 Mar 2025 19:43:06,402 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: c11d2396-7267-4631-bd9f-baa64f7b233b)
+17 Mar 2025 19:43:06,406 ERROR map.repository.database.VoluntarDBRepo 66 findOne - com.microsoft.sqlserver.jdbc.SQLServerException: The value is not set for the parameter number 1.
+17 Mar 2025 19:43:06,406 TRACE map.repository.database.VoluntarDBRepo 69 findOne - Exit
+17 Mar 2025 19:43:06,406 TRACE map.repository.database.VoluntarDBRepo 75 findAll - Enter findAll task{}, elem
+17 Mar 2025 19:43:06,406 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+17 Mar 2025 19:43:06,407 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: c11d2396-7267-4631-bd9f-baa64f7b233b)
+17 Mar 2025 19:43:06,421 TRACE map.repository.database.VoluntarDBRepo 96 findAll - Exit with([Entity{id=1}, Entity{id=2}])
+19 Mar 2025 17:26:33,678 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 17:26:33,680 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+19 Mar 2025 17:26:33,680 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 17:26:33,680 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 17:26:33,681 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 17:26:33,681 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 17:26:33,681 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 17:26:33,924 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 52e9c3c6-900f-44c5-bcd6-346aa8ddf70c)
+19 Mar 2025 17:26:34,050 TRACE map.repository.database.VoluntarDBRepo 48 save - Exit
+19 Mar 2025 17:26:34,051 TRACE map.repository.database.VoluntarDBRepo 54 findOne - Enter findOne task{}, elem
+19 Mar 2025 17:26:34,051 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 17:26:34,051 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 17:26:34,051 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 17:26:34,051 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 17:26:34,051 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 17:26:34,069 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 303d3e35-4780-410f-81c4-b16a567c90ce)
+19 Mar 2025 17:26:34,073 ERROR map.repository.database.VoluntarDBRepo 66 findOne - com.microsoft.sqlserver.jdbc.SQLServerException: The value is not set for the parameter number 1.
+19 Mar 2025 17:26:34,074 TRACE map.repository.database.VoluntarDBRepo 69 findOne - Exit
+19 Mar 2025 17:26:34,074 TRACE map.repository.database.VoluntarDBRepo 75 findAll - Enter findAll task{}, elem
+19 Mar 2025 17:26:34,074 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 17:26:34,074 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 303d3e35-4780-410f-81c4-b16a567c90ce)
+19 Mar 2025 17:26:34,100 TRACE map.repository.database.VoluntarDBRepo 96 findAll - Exit with([Entity{id=1}, Entity{id=2}, Entity{id=3}, Entity{id=4}])
+19 Mar 2025 17:29:24,992 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 17:29:24,994 TRACE map.repository.database.VoluntarDBRepo 32 save - Enter
+19 Mar 2025 17:29:24,994 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 17:29:24,994 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 17:29:24,994 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 17:29:24,995 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 17:29:24,995 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 17:29:25,209 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 48f17157-ecb9-424c-b589-f11404a6e14a)
+19 Mar 2025 17:29:25,246 TRACE map.repository.database.VoluntarDBRepo 48 save - Exit
+19 Mar 2025 17:29:25,246 TRACE map.repository.database.VoluntarDBRepo 54 findOne - Enter findOne task{}, elem
+19 Mar 2025 17:29:25,246 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 17:29:25,247 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 17:29:25,247 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 17:29:25,247 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 17:29:25,247 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 17:29:25,264 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 630ed934-8ee0-46f3-b6a5-616313148a05)
+19 Mar 2025 17:29:25,268 ERROR map.repository.database.VoluntarDBRepo 66 findOne - com.microsoft.sqlserver.jdbc.SQLServerException: The value is not set for the parameter number 1.
+19 Mar 2025 17:29:25,268 TRACE map.repository.database.VoluntarDBRepo 69 findOne - Exit
+19 Mar 2025 17:29:25,268 TRACE map.repository.database.VoluntarDBRepo 75 findAll - Enter findAll task{}, elem
+19 Mar 2025 17:29:25,268 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 17:29:25,268 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 630ed934-8ee0-46f3-b6a5-616313148a05)
+19 Mar 2025 17:29:25,283 TRACE map.repository.database.VoluntarDBRepo 96 findAll - Exit with([Entity{id=1}, Entity{id=2}, Entity{id=3}, Entity{id=4}, Entity{id=5}])
+19 Mar 2025 17:52:22,254 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 17:52:22,257 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 17:52:22,258 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 17:52:22,259 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 17:59:03,014 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 17:59:03,020 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 17:59:03,023 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 17:59:03,025 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 17:59:09,989 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 17:59:09,990 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 17:59:09,990 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 17:59:09,991 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 17:59:09,991 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 17:59:09,991 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 17:59:10,228 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 22e91921-7a29-4329-bcc1-21f01ce817d7)
+19 Mar 2025 17:59:10,246 ERROR map.repository.database.VoluntarDBRepo 156 findByUsername - com.microsoft.sqlserver.jdbc.SQLServerException: The value is not set for the parameter number 1.
+19 Mar 2025 17:59:10,247 TRACE map.repository.database.VoluntarDBRepo 159 findByUsername - Exit
+19 Mar 2025 18:04:24,466 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:04:24,471 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:04:24,473 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:04:24,474 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:04:33,112 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:04:33,113 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:04:33,113 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:04:33,113 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:04:33,113 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:04:33,113 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:04:33,326 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1b9742e9-fe0f-49e6-aed7-2909cee4e211)
+19 Mar 2025 18:04:33,389 ERROR map.repository.database.VoluntarDBRepo 157 findByUsername - com.microsoft.sqlserver.jdbc.SQLServerException: The result set has no current row.
+19 Mar 2025 18:04:33,390 TRACE map.repository.database.VoluntarDBRepo 160 findByUsername - Exit
+19 Mar 2025 18:05:18,967 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:05:18,969 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:05:18,970 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:05:18,971 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:05:25,619 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:05:25,620 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:05:25,620 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:05:25,620 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:05:25,621 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:05:25,621 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:05:25,840 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 4bf313fb-81dc-4776-8296-ad52b239a07d)
+19 Mar 2025 18:05:25,870 TRACE map.repository.database.VoluntarDBRepo 162 findByUsername - Exit
+19 Mar 2025 18:05:49,656 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:05:49,658 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:05:49,659 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 4bf313fb-81dc-4776-8296-ad52b239a07d)
+19 Mar 2025 18:05:49,668 TRACE map.repository.database.VoluntarDBRepo 162 findByUsername - Exit
+19 Mar 2025 18:07:45,034 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:07:45,038 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:07:45,039 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:07:45,039 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:07:51,264 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:07:51,264 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:07:51,265 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:07:51,265 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:07:51,265 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:07:51,265 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:07:51,482 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1082f20e-bf0c-4610-8307-a2688954fcbf)
+19 Mar 2025 18:07:51,513 TRACE map.repository.database.VoluntarDBRepo 162 findByUsername - Exit
+19 Mar 2025 18:08:30,869 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:08:30,871 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:08:30,872 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:08:30,872 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:08:37,950 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:08:37,950 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:08:37,950 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:08:37,951 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:08:37,951 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:08:37,951 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:08:38,174 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e8a5126f-d984-4207-b979-4a2f91ba2721)
+19 Mar 2025 18:08:38,207 TRACE map.repository.database.VoluntarDBRepo 162 findByUsername - Exit
+19 Mar 2025 18:09:19,851 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:09:19,853 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:09:19,854 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:09:19,855 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:09:25,791 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:09:25,791 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:09:25,792 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:09:25,792 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:09:25,792 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:09:25,792 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:09:25,992 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0e3cc552-84a7-4dc8-a517-7e9ac3aa3726)
+19 Mar 2025 18:09:26,027 TRACE map.repository.database.VoluntarDBRepo 162 findByUsername - Exit
+19 Mar 2025 18:10:18,120 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:10:18,125 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:10:18,126 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:10:18,128 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:10:23,830 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:10:23,831 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:10:23,831 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:10:23,831 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:10:23,831 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:10:23,831 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:10:24,063 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 60310767-d899-4d07-ab5d-4e55d6853ad8)
+19 Mar 2025 18:10:24,100 TRACE map.repository.database.VoluntarDBRepo 162 findByUsername - Exit
+19 Mar 2025 18:11:21,994 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:11:22,001 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:11:22,002 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:11:22,004 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:11:27,596 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:11:27,600 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:11:27,600 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:11:27,601 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:11:27,601 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:11:27,601 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:11:27,825 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: f16c611b-823e-4924-bbb1-439886fa8dc5)
+19 Mar 2025 18:11:27,859 TRACE map.repository.database.VoluntarDBRepo 162 findByUsername - Exit
+19 Mar 2025 18:12:26,875 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:12:26,878 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:12:26,879 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:12:26,881 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:12:33,035 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:12:33,036 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:12:33,036 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:12:33,036 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:12:33,036 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:12:33,037 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:12:33,257 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 477377f5-64bb-4c1d-9a9e-746e9198830a)
+19 Mar 2025 18:12:33,291 TRACE map.repository.database.VoluntarDBRepo 162 findByUsername - Exit
+19 Mar 2025 18:12:55,335 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:12:55,343 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:12:55,344 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:12:55,345 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:13:52,447 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:13:52,448 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:13:52,448 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:13:52,449 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:13:52,449 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:13:52,449 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:13:52,657 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a223ae84-3f0c-4625-a156-a94d91801edf)
+19 Mar 2025 18:13:52,687 ERROR map.repository.database.VoluntarDBRepo 157 findByUsername - com.microsoft.sqlserver.jdbc.SQLServerException: The result set has no current row.
+19 Mar 2025 18:13:52,687 TRACE map.repository.database.VoluntarDBRepo 160 findByUsername - Exit
+19 Mar 2025 18:14:40,428 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:14:40,431 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:14:40,433 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:14:40,435 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:14:46,130 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:14:46,131 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:14:46,131 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:14:46,132 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:14:46,132 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:14:46,132 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:14:46,348 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 7d836eaf-28e5-4840-8844-abd7958de707)
+19 Mar 2025 18:14:46,382 TRACE map.repository.database.VoluntarDBRepo 163 findByUsername - Exit
+19 Mar 2025 18:21:01,812 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:21:01,817 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:21:01,821 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:21:01,824 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:21:07,709 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:21:07,710 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:21:07,710 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:21:07,710 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:21:07,711 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:21:07,711 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:21:07,921 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: f03e106c-052d-4e21-b7a5-73985afd6bd1)
+19 Mar 2025 18:21:07,953 TRACE map.repository.database.VoluntarDBRepo 163 findByUsername - Exit
+19 Mar 2025 18:23:48,832 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:23:48,834 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:23:48,835 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:23:48,835 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:24:00,143 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:24:00,144 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:24:00,144 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:24:00,145 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:24:00,145 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:24:00,145 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:24:00,382 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 13d79a48-1ce3-4ca1-a01b-dadbf787872c)
+19 Mar 2025 18:24:00,414 TRACE map.repository.database.VoluntarDBRepo 163 findByUsername - Exit
+19 Mar 2025 18:28:59,981 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:28:59,983 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:28:59,984 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:28:59,985 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:29:05,510 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:29:05,510 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:29:05,511 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:29:05,511 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:29:05,511 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:29:05,511 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:29:05,727 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 218acd83-ad61-4108-860a-89fbb471e2f0)
+19 Mar 2025 18:29:05,759 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit
+19 Mar 2025 18:30:07,514 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:30:07,516 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:30:07,517 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:30:07,518 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:30:13,306 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:30:13,307 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:30:13,307 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:30:13,308 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:30:13,308 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:30:13,308 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:30:13,512 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 3f1b7add-b789-4683-86b7-5b5762babfdb)
+19 Mar 2025 18:30:13,542 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit
+19 Mar 2025 18:30:45,573 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:30:45,575 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:30:45,576 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:30:45,577 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:30:50,945 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:30:50,945 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:30:50,946 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:30:50,946 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:30:50,946 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:30:50,946 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:30:51,159 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: d89853e6-5ec6-41be-bb19-a311d90a1abf)
+19 Mar 2025 18:30:51,197 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=1})
+19 Mar 2025 18:51:52,072 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:51:52,073 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:51:52,074 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:51:52,075 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:51:59,849 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:51:59,850 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:51:59,850 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:51:59,850 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:51:59,850 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:51:59,851 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:52:00,077 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: d7803450-0bc0-4560-a514-737cabff031b)
+19 Mar 2025 18:52:00,128 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=1})
+19 Mar 2025 18:52:00,151 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+19 Mar 2025 18:52:00,152 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:52:00,152 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:52:00,152 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:52:00,152 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:52:00,152 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:52:00,174 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 235780ce-6f5c-429e-8662-0045da51c8a8)
+19 Mar 2025 18:52:00,230 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([])
+19 Mar 2025 18:55:30,979 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:55:30,983 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:55:30,986 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:55:30,988 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:55:37,699 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:55:37,700 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:55:37,700 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:55:37,700 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:55:37,701 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:55:37,701 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:55:37,925 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0f52d877-03d9-48bb-b2ae-b3b061df1832)
+19 Mar 2025 18:55:37,964 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=1})
+19 Mar 2025 18:55:37,985 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+19 Mar 2025 18:55:37,985 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:55:37,985 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:55:37,985 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:55:37,985 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:55:37,986 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:55:38,009 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: badb73f7-4787-47a8-8401-d1f17a5007a2)
+19 Mar 2025 18:55:38,010 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([])
+19 Mar 2025 18:57:28,447 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:57:28,451 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:57:28,455 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:57:28,458 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:57:35,009 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:57:35,010 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:57:35,010 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:57:35,011 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:57:35,011 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:57:35,011 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:57:35,245 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 85880cf7-1e3d-4e43-897d-16baa895abab)
+19 Mar 2025 18:57:35,283 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=1})
+19 Mar 2025 18:57:35,304 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+19 Mar 2025 18:57:35,304 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:57:35,304 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:57:35,304 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:57:35,305 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:57:35,305 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:57:35,329 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: ab180634-6204-41f5-8b2b-2891156132e4)
+19 Mar 2025 18:57:35,330 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([])
+19 Mar 2025 18:59:03,896 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:59:03,901 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:59:03,904 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:59:03,905 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:59:10,604 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 18:59:10,605 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:59:10,605 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:59:10,605 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:59:10,605 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:59:10,605 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:59:10,817 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 929294ba-af37-4e54-8c16-de001800c549)
+19 Mar 2025 18:59:10,855 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=1})
+19 Mar 2025 18:59:10,878 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+19 Mar 2025 18:59:10,878 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 18:59:10,878 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 18:59:10,879 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 18:59:10,879 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 18:59:10,879 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 18:59:10,903 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 176ec3ac-d944-45c2-8b07-85d324b12ba3)
+19 Mar 2025 18:59:10,905 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([])
+19 Mar 2025 18:59:54,144 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:59:54,149 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:59:54,151 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 18:59:54,153 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:00:03,843 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 19:00:03,844 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 19:00:03,844 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 19:00:03,844 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 19:00:03,845 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 19:00:03,845 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 19:00:04,059 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a4b9b23b-5fde-4c67-aa22-e8d267f09042)
+19 Mar 2025 19:00:04,111 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=1})
+19 Mar 2025 19:00:04,132 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+19 Mar 2025 19:00:04,132 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 19:00:04,132 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 19:00:04,132 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 19:00:04,133 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 19:00:04,133 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 19:00:04,151 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 55de33ed-849d-4b5f-b384-63af56b6106f)
+19 Mar 2025 19:00:04,153 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([])
+19 Mar 2025 19:02:14,886 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:02:14,889 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:02:14,893 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:02:14,894 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:02:21,381 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 19:02:21,382 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 19:02:21,382 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 19:02:21,383 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 19:02:21,383 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 19:02:21,383 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 19:02:21,616 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 6ff55c71-f454-4d61-bd08-b92b0501cc38)
+19 Mar 2025 19:02:21,650 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=1})
+19 Mar 2025 19:02:21,671 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+19 Mar 2025 19:02:21,671 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 19:02:21,671 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 19:02:21,672 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 19:02:21,672 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 19:02:21,672 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 19:02:21,691 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 675281b0-7dfc-4937-b249-a3b683dffefc)
+19 Mar 2025 19:02:21,693 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([])
+19 Mar 2025 19:03:19,486 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:03:19,489 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:03:19,490 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:03:19,491 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:03:25,569 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 19:03:25,570 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 19:03:25,571 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 19:03:25,571 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 19:03:25,571 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 19:03:25,571 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 19:03:25,784 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 560dda02-63e1-4067-b1dc-3d545edd0d36)
+19 Mar 2025 19:03:25,818 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=1})
+19 Mar 2025 19:03:25,837 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+19 Mar 2025 19:03:25,837 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 19:03:25,837 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 19:03:25,837 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 19:03:25,838 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 19:03:25,838 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 19:03:25,863 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 2adede97-4149-4316-98b1-821d2d2f6347)
+19 Mar 2025 19:03:25,864 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([])
+19 Mar 2025 19:04:38,318 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:04:38,329 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:04:38,332 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:04:38,333 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+19 Mar 2025 19:04:44,388 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+19 Mar 2025 19:04:44,389 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 19:04:44,389 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 19:04:44,390 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 19:04:44,390 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 19:04:44,390 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 19:04:44,611 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a41d66e9-5989-4dae-a22b-5458be6dcdf7)
+19 Mar 2025 19:04:44,644 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=1})
+19 Mar 2025 19:04:44,664 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+19 Mar 2025 19:04:44,664 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 19:04:44,665 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+19 Mar 2025 19:04:44,665 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+19 Mar 2025 19:04:44,665 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+19 Mar 2025 19:04:44,665 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+19 Mar 2025 19:04:44,682 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: d0ada942-cf7a-427d-9762-0e42deb2166b)
+19 Mar 2025 19:04:44,684 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([])
+19 Mar 2025 19:04:46,011 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+19 Mar 2025 19:04:46,012 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+19 Mar 2025 19:04:46,012 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: d0ada942-cf7a-427d-9762-0e42deb2166b)
+19 Mar 2025 19:04:46,014 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([])
+20 Mar 2025 11:13:41,040 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 11:13:41,043 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 11:13:41,044 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 11:13:41,044 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 11:13:47,846 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+20 Mar 2025 11:13:47,847 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 11:13:47,847 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 11:13:47,847 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 11:13:47,848 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 11:13:47,848 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 11:13:47,976 ERROR map.repository.JdbcUtils 39 getNewConnection - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+20 Mar 2025 11:13:47,976 TRACE map.repository.JdbcUtils 54 getConnection - Exit
+20 Mar 2025 11:13:59,101 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+20 Mar 2025 11:13:59,102 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 11:13:59,102 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 11:13:59,103 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 11:13:59,103 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 11:13:59,103 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 11:13:59,133 ERROR map.repository.JdbcUtils 39 getNewConnection - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "The driver received an unexpected pre-login response. Verify the connection properties and check that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. This driver can be used only with SQL Server 2005 or later.". ClientConnectionId:536fbe78-108c-4bc9-9eea-d83efa5eecd5
+20 Mar 2025 11:13:59,133 TRACE map.repository.JdbcUtils 54 getConnection - Exit
+20 Mar 2025 11:19:17,522 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+20 Mar 2025 11:19:17,524 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 11:19:17,525 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 11:19:17,526 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 11:19:17,526 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 11:19:17,526 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 11:19:17,689 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: c5b4f9c0-6891-4547-9523-c562a7b1b99a)
+20 Mar 2025 11:19:17,750 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=1})
+20 Mar 2025 11:19:17,771 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 11:19:17,772 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 11:19:17,772 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 11:19:17,772 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 11:19:17,772 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 11:19:17,772 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 11:19:17,789 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: ab35d470-351b-404d-8ee4-92e080a239c0)
+20 Mar 2025 11:19:17,793 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([])
+20 Mar 2025 11:19:22,421 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 11:19:22,421 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 11:19:22,421 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: ab35d470-351b-404d-8ee4-92e080a239c0)
+20 Mar 2025 11:19:22,426 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([])
+20 Mar 2025 16:36:47,015 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 16:36:47,018 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 16:36:47,019 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 16:36:47,020 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 16:36:52,679 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+20 Mar 2025 16:36:52,680 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 16:36:52,680 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 16:36:52,681 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 16:36:52,681 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 16:36:52,681 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 16:36:52,933 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1b0edffc-8889-409d-b1eb-e234af7339ca)
+20 Mar 2025 16:36:52,983 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+20 Mar 2025 16:36:53,007 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 16:36:53,007 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 16:36:53,007 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 16:36:53,007 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 16:36:53,007 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 16:36:53,007 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 16:36:53,025 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: cdeb8d38-5a2f-4c5d-b3b5-bb489db178bf)
+20 Mar 2025 16:36:53,028 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Entity{id=1}, Entity{id=2}])
+20 Mar 2025 16:36:53,029 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 16:36:53,029 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 16:36:53,029 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 16:36:53,029 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 16:36:53,029 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 16:36:53,029 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 16:36:53,052 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: a4fa86fb-7a56-418c-87eb-66524c9af5b9)
+20 Mar 2025 16:36:53,062 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 16:36:53,063 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 16:36:53,063 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 16:36:53,063 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: a4fa86fb-7a56-418c-87eb-66524c9af5b9)
+20 Mar 2025 16:36:53,065 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 16:36:58,616 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 16:36:58,617 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 16:36:58,617 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: cdeb8d38-5a2f-4c5d-b3b5-bb489db178bf)
+20 Mar 2025 16:36:58,620 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Entity{id=1}, Entity{id=2}])
+20 Mar 2025 16:57:00,330 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 16:57:00,335 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 16:57:00,337 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 16:57:00,338 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 16:57:05,281 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+20 Mar 2025 16:57:05,282 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 16:57:05,282 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 16:57:05,282 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 16:57:05,282 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 16:57:05,283 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 16:57:05,509 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 272f5798-ae77-49f6-a320-edf558ff2cb4)
+20 Mar 2025 16:57:05,544 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+20 Mar 2025 16:57:05,562 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 16:57:05,562 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 16:57:05,563 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 16:57:05,563 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 16:57:05,563 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 16:57:05,563 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 16:57:05,584 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 4078c1e0-ae2a-4ba0-9432-9c40e2c7303e)
+20 Mar 2025 16:57:05,587 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Entity{id=1}, Entity{id=2}])
+20 Mar 2025 16:57:05,588 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 16:57:05,588 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 16:57:05,588 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 16:57:05,588 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 16:57:05,588 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 16:57:05,588 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 16:57:05,607 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 78161456-a3f8-4c83-941d-7448cb620634)
+20 Mar 2025 16:57:05,610 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 16:57:05,611 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 16:57:05,611 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 16:57:05,611 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 78161456-a3f8-4c83-941d-7448cb620634)
+20 Mar 2025 16:57:05,612 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 16:57:08,701 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 16:57:08,702 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 16:57:08,702 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 4078c1e0-ae2a-4ba0-9432-9c40e2c7303e)
+20 Mar 2025 16:57:08,704 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Entity{id=1}, Entity{id=2}])
+20 Mar 2025 17:01:19,492 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:01:19,495 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:01:19,495 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:01:19,496 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:01:24,688 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+20 Mar 2025 17:01:24,688 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:01:24,688 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:01:24,689 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:01:24,689 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:01:24,689 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:01:24,914 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c83c4ca8-1ff3-41ec-9e21-a79f7f5c684a)
+20 Mar 2025 17:01:24,951 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+20 Mar 2025 17:01:24,972 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 17:01:24,972 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:01:24,972 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:01:24,972 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:01:24,972 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:01:24,972 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:01:24,992 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: f84e990a-50bf-48c6-ae0a-a4cb9907cfcc)
+20 Mar 2025 17:01:24,994 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu - Casa familiei Popescu a fost distrusa intr-un incendiu, se strang donatii pentru a le gasi un adapost, Spital de copii - Se strang donatii pentru construirea unui spital de copii nou in Cluj-Napoca])
+20 Mar 2025 17:01:24,994 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 17:01:24,995 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:01:24,995 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:01:24,995 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:01:24,995 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:01:24,995 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:01:25,011 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: c94b1282-0922-470b-b998-0e0327e025b5)
+20 Mar 2025 17:01:25,013 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 17:01:25,014 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 17:01:25,014 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:01:25,014 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: c94b1282-0922-470b-b998-0e0327e025b5)
+20 Mar 2025 17:01:25,015 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 17:01:26,529 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 17:01:26,529 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:01:26,529 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: f84e990a-50bf-48c6-ae0a-a4cb9907cfcc)
+20 Mar 2025 17:01:26,533 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu - Casa familiei Popescu a fost distrusa intr-un incendiu, se strang donatii pentru a le gasi un adapost, Spital de copii - Se strang donatii pentru construirea unui spital de copii nou in Cluj-Napoca])
+20 Mar 2025 17:04:51,597 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:04:51,602 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:04:51,603 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:04:51,604 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:04:55,739 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+20 Mar 2025 17:04:55,740 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:04:55,740 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:04:55,740 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:04:55,740 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:04:55,740 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:04:55,954 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 4086163f-a39c-4bcf-9c98-5e97e4fae871)
+20 Mar 2025 17:04:55,986 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+20 Mar 2025 17:04:56,003 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 17:04:56,003 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:04:56,003 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:04:56,003 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:04:56,003 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:04:56,003 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:04:56,028 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 76cac40a-ef36-411c-94bc-fc308b01f5a6)
+20 Mar 2025 17:04:56,030 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+20 Mar 2025 17:04:56,030 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 17:04:56,030 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:04:56,030 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:04:56,030 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:04:56,030 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:04:56,031 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:04:56,048 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 9b98405c-c5a2-40a3-bb8f-4774d55c7533)
+20 Mar 2025 17:04:56,050 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 17:04:56,051 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 17:04:56,051 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:04:56,052 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 9b98405c-c5a2-40a3-bb8f-4774d55c7533)
+20 Mar 2025 17:04:56,053 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 17:04:57,849 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 17:04:57,849 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:04:57,849 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 76cac40a-ef36-411c-94bc-fc308b01f5a6)
+20 Mar 2025 17:04:57,855 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+20 Mar 2025 17:05:14,870 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+20 Mar 2025 17:05:14,872 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:05:14,872 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:05:14,872 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:05:14,872 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:05:14,872 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:05:14,908 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: f8e53a90-d7b0-47e1-8ec8-20e5b2c03c84)
+20 Mar 2025 17:05:14,917 ERROR map.repository.database.DonatorDBRepo 138 findByFullName - com.microsoft.sqlserver.jdbc.SQLServerException: The result set has no current row.
+20 Mar 2025 17:05:14,918 TRACE map.repository.database.DonatorDBRepo 141 findByFullName - Exit
+20 Mar 2025 17:05:14,918 TRACE map.repository.database.DonatorDBRepo 30 save - Enter
+20 Mar 2025 17:05:14,918 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:05:14,918 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: f8e53a90-d7b0-47e1-8ec8-20e5b2c03c84)
+20 Mar 2025 17:05:14,928 TRACE map.repository.database.DonatorDBRepo 46 save - Exit
+20 Mar 2025 17:05:37,043 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:05:37,046 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:05:37,047 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:05:37,048 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:05:41,432 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+20 Mar 2025 17:05:41,432 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:05:41,433 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:05:41,433 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:05:41,433 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:05:41,433 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:05:41,641 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 5cc14743-d48f-499e-b19b-2cbebfd8c641)
+20 Mar 2025 17:05:41,677 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+20 Mar 2025 17:05:41,694 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 17:05:41,694 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:05:41,694 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:05:41,694 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:05:41,694 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:05:41,694 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:05:41,718 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 83888540-60aa-49c9-9020-701512b85a6d)
+20 Mar 2025 17:05:41,720 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+20 Mar 2025 17:05:41,720 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 17:05:41,720 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:05:41,720 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:05:41,720 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:05:41,720 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:05:41,721 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:05:41,737 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 572ded41-3681-48e0-a6c0-12dbdb3b9a4f)
+20 Mar 2025 17:05:41,739 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 17:05:41,740 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 17:05:41,740 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:05:41,740 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 572ded41-3681-48e0-a6c0-12dbdb3b9a4f)
+20 Mar 2025 17:05:41,741 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 17:09:36,000 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:09:36,003 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:09:36,004 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:09:36,004 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:09:40,404 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+20 Mar 2025 17:09:40,406 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:09:40,406 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:09:40,406 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:09:40,407 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:09:40,407 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:09:40,629 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 3ecca81c-debb-499b-a38f-791c7c04f043)
+20 Mar 2025 17:09:40,677 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+20 Mar 2025 17:09:40,695 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 17:09:40,695 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:09:40,695 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:09:40,695 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:09:40,695 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:09:40,695 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:09:40,722 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: dd4f86ed-aa93-4133-b05f-b14f70f55714)
+20 Mar 2025 17:09:40,724 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+20 Mar 2025 17:09:40,724 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 17:09:40,724 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:09:40,724 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:09:40,724 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:09:40,724 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:09:40,725 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:09:40,740 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 4bff64f5-44c6-414e-a992-d308dd5d0e9d)
+20 Mar 2025 17:09:40,743 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 17:09:40,744 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 17:09:40,744 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:09:40,744 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 4bff64f5-44c6-414e-a992-d308dd5d0e9d)
+20 Mar 2025 17:09:40,745 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 17:09:42,213 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 17:09:42,213 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:09:42,213 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: dd4f86ed-aa93-4133-b05f-b14f70f55714)
+20 Mar 2025 17:09:42,218 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+20 Mar 2025 17:09:53,593 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+20 Mar 2025 17:09:53,594 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:09:53,594 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:09:53,595 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:09:53,595 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:09:53,595 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:09:53,634 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: d4c03730-eb35-4904-8799-91a9ebfdb66e)
+20 Mar 2025 17:09:53,638 ERROR map.repository.database.DonatorDBRepo 138 findByFullName - com.microsoft.sqlserver.jdbc.SQLServerException: The result set has no current row.
+20 Mar 2025 17:09:53,638 TRACE map.repository.database.DonatorDBRepo 141 findByFullName - Exit
+20 Mar 2025 17:09:53,638 TRACE map.repository.database.DonatorDBRepo 30 save - Enter
+20 Mar 2025 17:09:53,638 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:09:53,638 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: d4c03730-eb35-4904-8799-91a9ebfdb66e)
+20 Mar 2025 17:09:53,654 TRACE map.repository.database.DonatorDBRepo 46 save - Exit
+20 Mar 2025 17:11:06,630 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:11:06,632 INFO  map.repository.database.DonatorDBRepo 22 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:11:06,634 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:11:06,636 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+20 Mar 2025 17:11:11,150 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+20 Mar 2025 17:11:11,151 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:11:11,151 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:11:11,151 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:11:11,151 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:11:11,151 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:11:11,368 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ff2803e2-727a-4032-9760-aa752d45600a)
+20 Mar 2025 17:11:11,402 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+20 Mar 2025 17:11:11,418 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 17:11:11,418 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:11:11,418 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:11:11,418 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:11:11,418 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:11:11,419 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:11:11,436 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 60df8927-3829-4a05-8782-731be19066fe)
+20 Mar 2025 17:11:11,438 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+20 Mar 2025 17:11:11,438 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 17:11:11,438 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:11:11,438 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:11:11,438 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:11:11,438 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:11:11,438 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:11:11,455 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: af349845-07fb-4b11-bd8b-591c7bd1fbc7)
+20 Mar 2025 17:11:11,457 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 17:11:11,457 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+20 Mar 2025 17:11:11,457 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:11:11,458 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: af349845-07fb-4b11-bd8b-591c7bd1fbc7)
+20 Mar 2025 17:11:11,459 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+20 Mar 2025 17:11:12,795 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+20 Mar 2025 17:11:12,795 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:11:12,795 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 60df8927-3829-4a05-8782-731be19066fe)
+20 Mar 2025 17:11:12,803 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+20 Mar 2025 17:11:24,021 TRACE map.repository.database.DonatorDBRepo 125 findByFullName - Enter findByFullName task{}, elem
+20 Mar 2025 17:11:24,021 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:11:24,022 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+20 Mar 2025 17:11:24,022 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+20 Mar 2025 17:11:24,022 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+20 Mar 2025 17:11:24,022 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+20 Mar 2025 17:11:24,048 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: f624e003-7e3d-4c2a-9e11-05a8392ac604)
+20 Mar 2025 17:11:24,052 ERROR map.repository.database.DonatorDBRepo 137 findByFullName - com.microsoft.sqlserver.jdbc.SQLServerException: The result set has no current row.
+20 Mar 2025 17:11:24,053 TRACE map.repository.database.DonatorDBRepo 140 findByFullName - Exit
+20 Mar 2025 17:11:24,053 TRACE map.repository.database.DonatorDBRepo 27 save - Enter
+20 Mar 2025 17:11:24,053 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+20 Mar 2025 17:11:24,053 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: f624e003-7e3d-4c2a-9e11-05a8392ac604)
+20 Mar 2025 17:11:24,068 TRACE map.repository.database.DonatorDBRepo 46 save - Exit with(Entity{id=3})
+24 Mar 2025 12:48:46,826 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:48:46,828 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:48:46,829 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:48:46,829 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:48:51,728 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 12:48:51,728 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:48:51,728 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:48:51,729 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:48:51,729 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:48:51,729 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:48:51,980 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 40c6aaf1-ec7f-4142-88b6-4804a60d0302)
+24 Mar 2025 12:48:52,036 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 12:48:52,059 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 12:48:52,060 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:48:52,060 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:48:52,060 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:48:52,060 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:48:52,060 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:48:52,079 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 912d7bad-0e06-44ad-b636-1b77e376c94b)
+24 Mar 2025 12:48:52,082 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 12:48:52,082 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 12:48:52,082 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:48:52,082 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:48:52,082 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:48:52,082 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:48:52,082 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:48:52,098 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: d03ad491-6afa-41d7-9b1f-c69d9c539eb6)
+24 Mar 2025 12:48:52,102 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 12:48:52,104 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 12:48:52,104 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:48:52,104 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: d03ad491-6afa-41d7-9b1f-c69d9c539eb6)
+24 Mar 2025 12:48:52,107 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 12:48:55,268 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 12:48:55,268 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:48:55,268 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 912d7bad-0e06-44ad-b636-1b77e376c94b)
+24 Mar 2025 12:48:55,270 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 12:49:59,199 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 12:49:59,202 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:49:59,202 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:49:59,203 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:49:59,203 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:49:59,203 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:49:59,250 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: c4e0225f-5b99-41e9-b46a-c87bda1de888)
+24 Mar 2025 12:49:59,254 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=1})
+24 Mar 2025 12:49:59,254 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 12:49:59,255 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:49:59,255 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: c4e0225f-5b99-41e9-b46a-c87bda1de888)
+24 Mar 2025 12:49:59,256 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=1})
+24 Mar 2025 12:50:19,516 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:50:19,519 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:50:19,521 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:50:19,522 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:50:23,467 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 12:50:23,467 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:50:23,468 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:50:23,468 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:50:23,468 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:50:23,468 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:50:23,678 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 2df11d23-066c-4e64-bc2e-4c9d84e00db4)
+24 Mar 2025 12:50:23,715 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 12:50:23,731 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 12:50:23,731 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:50:23,731 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:50:23,731 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:50:23,731 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:50:23,731 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:50:23,757 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: ca08591f-a269-4df2-83fe-b6241515819f)
+24 Mar 2025 12:50:23,760 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 12:50:23,760 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 12:50:23,760 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:50:23,760 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:50:23,760 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:50:23,760 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:50:23,760 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:50:23,779 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 4f5487f1-b9a5-4c89-bd6a-f244e985fe75)
+24 Mar 2025 12:50:23,781 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 12:50:23,782 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 12:50:23,782 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:50:23,782 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 4f5487f1-b9a5-4c89-bd6a-f244e985fe75)
+24 Mar 2025 12:50:23,783 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 12:53:30,783 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:53:30,788 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:53:30,789 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:53:30,789 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:53:36,034 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 12:53:36,035 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:53:36,035 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:53:36,035 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:53:36,036 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:53:36,036 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:53:36,285 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 771cf6f3-adef-4567-b160-4c7eb8d62783)
+24 Mar 2025 12:53:36,320 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 12:53:36,341 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 12:53:36,342 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:53:36,342 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:53:36,342 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:53:36,342 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:53:36,342 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:53:36,362 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 2a97c456-df66-4ca0-96a4-d60e4c91a828)
+24 Mar 2025 12:53:36,364 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 12:53:36,364 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 12:53:36,364 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:53:36,364 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:53:36,365 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:53:36,365 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:53:36,365 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:53:36,381 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 14e1927d-72bb-4ccd-856f-6cabdad1224c)
+24 Mar 2025 12:53:36,382 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 12:53:36,383 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 12:53:36,383 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:53:36,383 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 14e1927d-72bb-4ccd-856f-6cabdad1224c)
+24 Mar 2025 12:53:36,384 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 12:53:39,006 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 12:53:39,006 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:53:39,006 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 2a97c456-df66-4ca0-96a4-d60e4c91a828)
+24 Mar 2025 12:53:39,009 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 12:53:58,446 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 12:53:58,447 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:53:58,448 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:53:58,448 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:53:58,449 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:53:58,449 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:53:58,484 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: c44c610a-df6f-4eb7-aa8e-68c19fdf63cf)
+24 Mar 2025 12:53:58,486 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=3})
+24 Mar 2025 12:53:58,486 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 12:53:58,487 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:53:58,487 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: c44c610a-df6f-4eb7-aa8e-68c19fdf63cf)
+24 Mar 2025 12:53:58,488 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=3})
+24 Mar 2025 12:53:58,491 TRACE map.repository.database.DonatieDBRepo 38 save - Enter
+24 Mar 2025 12:53:58,492 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:53:58,492 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 14e1927d-72bb-4ccd-856f-6cabdad1224c)
+24 Mar 2025 12:56:23,385 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:56:23,389 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:56:23,391 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:56:23,394 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:56:28,551 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 12:56:28,553 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:56:28,553 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:56:28,554 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:56:28,554 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:56:28,555 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:56:28,768 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a1ceb59a-91df-4403-9871-d13b0483a56e)
+24 Mar 2025 12:56:28,807 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 12:56:28,827 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 12:56:28,827 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:56:28,827 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:56:28,827 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:56:28,827 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:56:28,828 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:56:28,851 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 594ba028-2f6c-4b94-b872-2f2eda501ab2)
+24 Mar 2025 12:56:28,853 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 12:56:28,853 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 12:56:28,853 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:56:28,853 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:56:28,853 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:56:28,854 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:56:28,854 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:56:28,870 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: b9c16d37-60a0-458d-b1e7-2f5f6a164217)
+24 Mar 2025 12:56:28,872 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 12:56:28,872 TRACE map.repository.database.DonatieDBRepo 134 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 12:56:28,873 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:56:28,873 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: b9c16d37-60a0-458d-b1e7-2f5f6a164217)
+24 Mar 2025 12:56:28,874 TRACE map.repository.database.DonatieDBRepo 149 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 12:56:30,702 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 12:56:30,702 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:56:30,702 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 594ba028-2f6c-4b94-b872-2f2eda501ab2)
+24 Mar 2025 12:56:30,706 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 12:56:42,356 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 12:56:42,357 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:56:42,357 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:56:42,357 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:56:42,357 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:56:42,357 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:56:42,389 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: f2c8cd9d-8af5-4e11-97ab-ad8950a7d863)
+24 Mar 2025 12:56:42,391 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=3})
+24 Mar 2025 12:56:42,391 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 12:56:42,391 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:56:42,391 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: f2c8cd9d-8af5-4e11-97ab-ad8950a7d863)
+24 Mar 2025 12:56:42,393 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=3})
+24 Mar 2025 12:56:42,396 TRACE map.repository.database.DonatieDBRepo 38 save - Enter
+24 Mar 2025 12:56:42,396 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:56:42,396 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: b9c16d37-60a0-458d-b1e7-2f5f6a164217)
+24 Mar 2025 12:58:40,757 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:58:40,762 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:58:40,762 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:58:40,763 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 12:58:44,426 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 12:58:44,426 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:58:44,426 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:58:44,427 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:58:44,427 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:58:44,427 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:58:44,650 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 4ce0fcbf-d879-4f9f-a7ce-6ea09ccb74d7)
+24 Mar 2025 12:58:44,684 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 12:58:44,701 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 12:58:44,702 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:58:44,702 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:58:44,702 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:58:44,702 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:58:44,702 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:58:44,724 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: b794ae2c-e88f-48bc-8602-fc6fac65f5eb)
+24 Mar 2025 12:58:44,726 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 12:58:44,726 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 12:58:44,726 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:58:44,726 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:58:44,727 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:58:44,727 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:58:44,727 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:58:44,744 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: f75d424a-07c9-4463-8843-c899e9feb872)
+24 Mar 2025 12:58:44,746 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 12:58:44,746 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 12:58:44,746 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:58:44,746 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: f75d424a-07c9-4463-8843-c899e9feb872)
+24 Mar 2025 12:58:44,747 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 12:58:46,087 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 12:58:46,088 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:58:46,088 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: b794ae2c-e88f-48bc-8602-fc6fac65f5eb)
+24 Mar 2025 12:58:46,091 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 12:58:58,129 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 12:58:58,130 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:58:58,130 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 12:58:58,130 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 12:58:58,130 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 12:58:58,131 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 12:58:58,165 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: 80fadaa2-3563-4bc1-a088-08177c8d8586)
+24 Mar 2025 12:58:58,167 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=3})
+24 Mar 2025 12:58:58,167 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 12:58:58,168 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:58:58,168 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: 80fadaa2-3563-4bc1-a088-08177c8d8586)
+24 Mar 2025 12:58:58,169 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=3})
+24 Mar 2025 12:58:58,172 TRACE map.repository.database.DonatieDBRepo 38 save - Enter
+24 Mar 2025 12:58:58,172 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 12:58:58,172 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: f75d424a-07c9-4463-8843-c899e9feb872)
+24 Mar 2025 13:00:03,050 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:00:03,057 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:00:03,059 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:00:03,061 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:00:07,453 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 13:00:07,454 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:00:07,454 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:00:07,454 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:00:07,455 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:00:07,455 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:00:07,677 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ca1e18e1-244b-42b7-9584-fee8cb220338)
+24 Mar 2025 13:00:07,718 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 13:00:07,737 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 13:00:07,737 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:00:07,737 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:00:07,737 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:00:07,737 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:00:07,737 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:00:07,756 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 1cc7969f-0814-4c79-8672-d5f9a51b423f)
+24 Mar 2025 13:00:07,757 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 13:00:07,757 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 13:00:07,757 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:00:07,758 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:00:07,758 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:00:07,758 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:00:07,758 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:00:07,774 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 1320f80e-472a-42a2-befc-a55ab895c6b5)
+24 Mar 2025 13:00:07,776 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 13:00:07,776 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 13:00:07,776 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:00:07,776 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 1320f80e-472a-42a2-befc-a55ab895c6b5)
+24 Mar 2025 13:00:07,778 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 13:00:09,160 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 13:00:09,160 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:00:09,160 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 1cc7969f-0814-4c79-8672-d5f9a51b423f)
+24 Mar 2025 13:00:09,164 TRACE map.repository.database.CazDBRepo 90 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 13:00:19,731 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 13:00:19,732 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:00:19,732 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:00:19,732 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:00:19,732 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:00:19,732 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:00:19,761 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: 4c1a4a9f-d371-46e0-b6da-b093eb9b3d83)
+24 Mar 2025 13:00:19,763 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=3})
+24 Mar 2025 13:00:19,763 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 13:00:19,763 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:00:19,763 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: 4c1a4a9f-d371-46e0-b6da-b093eb9b3d83)
+24 Mar 2025 13:00:19,765 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=3})
+24 Mar 2025 13:00:19,768 TRACE map.repository.database.DonatieDBRepo 38 save - Enter
+24 Mar 2025 13:00:19,769 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:00:19,769 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 1320f80e-472a-42a2-befc-a55ab895c6b5)
+24 Mar 2025 13:04:02,709 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:04:02,715 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:04:02,716 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:04:02,717 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:04:06,865 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 13:04:06,865 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:06,865 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:04:06,865 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:04:06,866 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:04:06,866 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:04:07,091 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 9c060e34-68b4-4b74-b405-03a6aed0a908)
+24 Mar 2025 13:04:07,132 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 13:04:07,149 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 13:04:07,150 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:07,150 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:04:07,150 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:04:07,150 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:04:07,150 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:04:07,169 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: aace8d66-c976-47a0-aa4d-64a6cce2619c)
+24 Mar 2025 13:04:07,171 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 13:04:07,171 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 13:04:07,171 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:07,172 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:04:07,172 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:04:07,172 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:04:07,172 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:04:07,190 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 5c285b64-569e-4976-9fdf-e6225c79e90d)
+24 Mar 2025 13:04:07,192 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 13:04:07,193 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 13:04:07,193 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:07,193 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 5c285b64-569e-4976-9fdf-e6225c79e90d)
+24 Mar 2025 13:04:07,194 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 13:04:08,748 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 13:04:08,748 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:08,748 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: aace8d66-c976-47a0-aa4d-64a6cce2619c)
+24 Mar 2025 13:04:08,750 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 13:04:23,497 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 13:04:23,499 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:23,499 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:04:23,499 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:04:23,499 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:04:23,499 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:04:23,545 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: 886a96b6-80ea-4639-a078-f702d663e2ef)
+24 Mar 2025 13:04:23,547 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=3})
+24 Mar 2025 13:04:23,547 TRACE map.repository.database.DonatorDBRepo 126 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 13:04:23,548 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:23,548 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: 886a96b6-80ea-4639-a078-f702d663e2ef)
+24 Mar 2025 13:04:23,549 TRACE map.repository.database.DonatorDBRepo 143 findByFullName - Exit with(Entity{id=3})
+24 Mar 2025 13:04:23,553 TRACE map.repository.database.DonatieDBRepo 38 save - Enter
+24 Mar 2025 13:04:23,553 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:23,553 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 5c285b64-569e-4976-9fdf-e6225c79e90d)
+24 Mar 2025 13:04:23,611 TRACE map.repository.database.DonatieDBRepo 57 save - Exit
+24 Mar 2025 13:04:36,774 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:04:36,779 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:04:36,781 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:04:36,782 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:04:40,674 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 13:04:40,675 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:40,675 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:04:40,675 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:04:40,676 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:04:40,676 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:04:40,903 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 593e6a43-d361-49bd-b175-9772f09484c1)
+24 Mar 2025 13:04:40,937 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 13:04:40,955 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 13:04:40,955 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:40,955 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:04:40,955 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:04:40,955 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:04:40,955 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:04:40,979 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 104e7cd7-e097-431d-a958-d28643accf55)
+24 Mar 2025 13:04:40,980 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 13:04:40,981 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 13:04:40,981 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:40,981 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:04:40,981 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:04:40,981 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:04:40,981 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:04:40,998 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: d5fc6e0b-e37f-4b56-a95b-3d96ba421019)
+24 Mar 2025 13:04:41,002 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(25)
+24 Mar 2025 13:04:41,003 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 13:04:41,003 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:41,003 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: d5fc6e0b-e37f-4b56-a95b-3d96ba421019)
+24 Mar 2025 13:04:41,004 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 13:04:49,929 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 13:04:49,930 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:04:49,930 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 104e7cd7-e097-431d-a958-d28643accf55)
+24 Mar 2025 13:04:49,934 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 13:16:17,144 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:16:17,154 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:16:17,155 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:16:17,159 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 13:16:21,247 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 13:16:21,248 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:16:21,248 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:16:21,248 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:16:21,249 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:16:21,249 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:16:21,474 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: f365ae55-fd3a-4484-90bd-1a3656b22464)
+24 Mar 2025 13:16:21,508 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 13:16:21,528 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 13:16:21,528 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:16:21,529 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:16:21,529 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:16:21,529 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:16:21,529 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:16:21,551 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: dd06608c-8167-4346-a026-bbabc5c9dbf7)
+24 Mar 2025 13:16:21,553 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 13:16:21,553 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 13:16:21,553 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:16:21,553 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:16:21,553 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:16:21,553 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:16:21,554 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:16:21,574 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 27b2ee93-c733-415c-a137-8ebc396c1e8b)
+24 Mar 2025 13:16:21,576 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(25)
+24 Mar 2025 13:16:21,577 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 13:16:21,577 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:16:21,577 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 27b2ee93-c733-415c-a137-8ebc396c1e8b)
+24 Mar 2025 13:16:21,579 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 13:16:22,868 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 13:16:22,868 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:16:22,868 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: dd06608c-8167-4346-a026-bbabc5c9dbf7)
+24 Mar 2025 13:16:22,872 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 13:16:25,972 TRACE map.repository.database.DonatorDBRepo 121 findByNameContaining - Enter findByNameContaining task{}, elem
+24 Mar 2025 13:16:25,973 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:16:25,973 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:16:25,973 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:16:25,974 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:16:25,974 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:16:26,011 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: 04653d93-04da-402e-b3dc-aae4a2cbde7c)
+24 Mar 2025 13:16:26,031 TRACE map.repository.database.DonatorDBRepo 142 findByNameContaining - Exit with([Gigel Frone, Gigel Frone, Gigel])
+24 Mar 2025 13:16:31,698 TRACE map.repository.database.DonatorDBRepo 121 findByNameContaining - Enter findByNameContaining task{}, elem
+24 Mar 2025 13:16:31,699 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 13:16:31,699 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 13:16:31,700 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 13:16:31,700 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 13:16:31,700 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 13:16:31,726 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:5 ClientConnectionId: 907982c3-3b57-4e29-9514-8e94fdad10b8)
+24 Mar 2025 13:16:31,729 TRACE map.repository.database.DonatorDBRepo 142 findByNameContaining - Exit with([Gigel Frone, Gigel Frone])
+24 Mar 2025 18:26:39,108 INFO  map.repository.database.VoluntarDBRepo 26 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 18:26:39,111 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 18:26:39,112 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 18:26:39,113 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 18:26:43,358 TRACE map.repository.database.VoluntarDBRepo 145 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 18:26:43,359 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 18:26:43,359 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 18:26:43,359 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 18:26:43,359 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 18:26:43,360 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 18:26:43,658 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd00d096-6553-4daa-a09f-a4814d0bd4b1)
+24 Mar 2025 18:26:43,740 TRACE map.repository.database.VoluntarDBRepo 167 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 18:26:43,759 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 18:26:43,759 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 18:26:43,759 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 18:26:43,759 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 18:26:43,759 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 18:26:43,759 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 18:26:43,778 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 993d32c6-f263-48e8-927c-f6082322ccbe)
+24 Mar 2025 18:26:43,787 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 18:26:43,787 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 18:26:43,787 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 18:26:43,787 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 18:26:43,787 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 18:26:43,787 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 18:26:43,787 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 18:26:43,805 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 0bc653d9-0349-4b34-a6a6-bdce0b23a53f)
+24 Mar 2025 18:26:43,812 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(25)
+24 Mar 2025 18:26:43,813 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 18:26:43,813 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 18:26:43,813 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 0bc653d9-0349-4b34-a6a6-bdce0b23a53f)
+24 Mar 2025 18:26:43,815 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 19:27:47,030 INFO  map.repository.database.VoluntarDBRepo 27 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:27:47,033 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:27:47,034 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:27:47,036 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:27:51,677 TRACE map.repository.database.VoluntarDBRepo 154 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 19:27:51,677 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:27:51,678 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:27:51,678 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:27:51,678 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:27:51,678 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:27:51,932 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 61291a4e-9a17-4694-8f23-6ed47f76f8c8)
+24 Mar 2025 19:27:51,983 TRACE map.repository.database.VoluntarDBRepo 176 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 19:31:51,192 INFO  map.repository.database.VoluntarDBRepo 27 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:31:51,195 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:31:51,199 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:31:51,205 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:31:55,152 TRACE map.repository.database.VoluntarDBRepo 154 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 19:31:55,152 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:31:55,152 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:31:55,152 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:31:55,153 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:31:55,153 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:31:55,379 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 190aa873-84d0-41ad-aba7-34fa4b00779c)
+24 Mar 2025 19:31:55,414 TRACE map.repository.database.VoluntarDBRepo 176 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 19:31:55,533 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 19:31:55,533 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:31:55,534 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:31:55,534 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:31:55,534 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:31:55,534 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:31:55,562 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: b368275a-b8ce-4d7e-8bf8-33576e7fb5f8)
+24 Mar 2025 19:31:55,565 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 19:31:55,565 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 19:31:55,565 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:31:55,565 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:31:55,565 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:31:55,565 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:31:55,565 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:31:55,581 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: b0cc17fc-fb20-49e8-bd3e-8bf417a0774f)
+24 Mar 2025 19:31:55,583 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(25)
+24 Mar 2025 19:31:55,584 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 19:31:55,584 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:31:55,584 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: b0cc17fc-fb20-49e8-bd3e-8bf417a0774f)
+24 Mar 2025 19:31:55,585 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 19:33:28,408 INFO  map.repository.database.VoluntarDBRepo 27 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:33:28,412 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:33:28,414 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:33:28,418 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:33:33,065 TRACE map.repository.database.VoluntarDBRepo 154 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 19:33:33,065 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:33:33,065 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:33:33,066 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:33:33,066 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:33:33,066 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:33:33,291 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 94d2eea9-ec25-40b8-9afe-fa56bdfd9943)
+24 Mar 2025 19:33:33,325 TRACE map.repository.database.VoluntarDBRepo 176 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 19:33:33,439 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 19:33:33,439 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:33:33,439 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:33:33,439 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:33:33,439 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:33:33,439 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:33:33,468 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: bee9a962-ae7a-426a-9f0e-e454d78ca148)
+24 Mar 2025 19:33:33,470 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 19:33:33,470 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 19:33:33,470 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:33:33,470 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:33:33,471 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:33:33,471 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:33:33,471 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:33:33,486 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 1cec5a0b-3baf-4302-85a5-c4ffd0239069)
+24 Mar 2025 19:33:33,487 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(25)
+24 Mar 2025 19:33:33,488 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 19:33:33,488 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:33:33,488 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 1cec5a0b-3baf-4302-85a5-c4ffd0239069)
+24 Mar 2025 19:33:33,489 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 19:33:36,158 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 19:33:36,158 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:33:36,158 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: bee9a962-ae7a-426a-9f0e-e454d78ca148)
+24 Mar 2025 19:33:36,162 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 19:33:38,892 TRACE map.repository.database.DonatorDBRepo 121 findByNameContaining - Enter findByNameContaining task{}, elem
+24 Mar 2025 19:33:38,892 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:33:38,892 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:33:38,892 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:33:38,892 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:33:38,893 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:33:38,931 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: 9d305550-d3de-434d-8f9e-c7ac1d938a80)
+24 Mar 2025 19:33:38,962 TRACE map.repository.database.DonatorDBRepo 142 findByNameContaining - Exit with([Gigel])
+24 Mar 2025 19:43:30,432 INFO  map.repository.database.VoluntarDBRepo 27 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:43:30,435 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:43:30,437 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:43:30,438 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:43:34,794 TRACE map.repository.database.VoluntarDBRepo 154 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 19:43:34,794 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:34,794 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:43:34,795 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:43:34,795 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:43:34,795 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:43:34,998 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1cfe1301-1713-4760-aec3-d96cf057fb82)
+24 Mar 2025 19:43:35,030 TRACE map.repository.database.VoluntarDBRepo 176 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 19:43:35,147 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 19:43:35,147 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:35,147 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:43:35,147 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:43:35,147 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:43:35,147 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:43:35,169 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: f6e571ec-1c14-4584-9dd0-9250b3ea2e62)
+24 Mar 2025 19:43:35,170 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 19:43:35,170 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 19:43:35,170 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:35,170 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:43:35,171 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:43:35,171 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:43:35,171 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:43:35,187 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 123869cf-a003-447a-9d3b-70457114ad85)
+24 Mar 2025 19:43:35,189 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(25)
+24 Mar 2025 19:43:35,189 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 19:43:35,189 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:35,189 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 123869cf-a003-447a-9d3b-70457114ad85)
+24 Mar 2025 19:43:35,190 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 19:43:39,928 INFO  map.repository.database.VoluntarDBRepo 27 <init> - Initializing VoluntarDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:43:39,932 INFO  map.repository.database.DonatorDBRepo 25 <init> - Initializing DonatorDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:43:39,933 INFO  map.repository.database.CazDBRepo 24 <init> - Initializing CazDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:43:39,934 INFO  map.repository.database.DonatieDBRepo 30 <init> - Initializing DonatieDBRepo with properties: {jdbc.password=12345OHdf%e, jdbc.user=SA, jdbc.url=jdbc:sqlserver://localhost;database=MPP;encrypt=false}
+24 Mar 2025 19:43:43,446 TRACE map.repository.database.VoluntarDBRepo 154 findByUsername - Enter findByUsername task{}, elem
+24 Mar 2025 19:43:43,447 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:43,447 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:43:43,447 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:43:43,447 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:43:43,448 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:43:43,646 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 48f65651-ec8f-4a89-82a7-7c34aa3c0844)
+24 Mar 2025 19:43:43,679 TRACE map.repository.database.VoluntarDBRepo 176 findByUsername - Exit with(Entity{id=6})
+24 Mar 2025 19:43:43,791 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 19:43:43,791 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:43,791 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:43:43,792 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:43:43,792 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:43:43,792 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:43:43,817 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 533bd85f-436c-4a1e-a23e-892d66f555aa)
+24 Mar 2025 19:43:43,819 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 19:43:43,819 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 19:43:43,819 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:43,819 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:43:43,819 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:43:43,819 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:43:43,819 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:43:43,834 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 7764d9e3-1c4c-44ee-95a2-c30fb1b810b6)
+24 Mar 2025 19:43:43,835 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(25)
+24 Mar 2025 19:43:43,836 TRACE map.repository.database.DonatieDBRepo 136 getSumaDonatiiPentruCaz - Enter getSumaDonatiiPentruCaz task{}, elem
+24 Mar 2025 19:43:43,836 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:43,836 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 7764d9e3-1c4c-44ee-95a2-c30fb1b810b6)
+24 Mar 2025 19:43:43,837 TRACE map.repository.database.DonatieDBRepo 151 getSumaDonatiiPentruCaz - Exit with(0)
+24 Mar 2025 19:43:47,970 TRACE map.repository.database.CazDBRepo 70 findAll - Enter findAll task{}, elem
+24 Mar 2025 19:43:47,971 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:47,971 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:2 ClientConnectionId: 533bd85f-436c-4a1e-a23e-892d66f555aa)
+24 Mar 2025 19:43:47,974 TRACE map.repository.database.CazDBRepo 89 findAll - Exit with([Casa Popescu, Spital de copii])
+24 Mar 2025 19:43:59,051 TRACE map.repository.database.DonatorDBRepo 149 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 19:43:59,053 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:59,053 TRACE map.repository.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 19:43:59,053 INFO  map.repository.JdbcUtils 29 getNewConnection - trying to connect to database... jdbc:sqlserver://localhost;database=MPP;encrypt=false
+24 Mar 2025 19:43:59,054 INFO  map.repository.JdbcUtils 30 getNewConnection - user: SA
+24 Mar 2025 19:43:59,054 INFO  map.repository.JdbcUtils 31 getNewConnection - password: 12345OHdf%e
+24 Mar 2025 19:43:59,091 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: 136a6510-4239-4764-91bd-cb4b2f2301c3)
+24 Mar 2025 19:43:59,122 TRACE map.repository.database.DonatorDBRepo 166 findByFullName - Exit with(Gigel)
+24 Mar 2025 19:43:59,122 TRACE map.repository.database.DonatorDBRepo 149 findByFullName - Enter findByFullName task{}, elem
+24 Mar 2025 19:43:59,122 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:59,122 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: 136a6510-4239-4764-91bd-cb4b2f2301c3)
+24 Mar 2025 19:43:59,124 TRACE map.repository.database.DonatorDBRepo 166 findByFullName - Exit with(Gigel)
+24 Mar 2025 19:43:59,128 TRACE map.repository.database.DonatieDBRepo 38 save - Enter
+24 Mar 2025 19:43:59,128 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:43:59,128 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:3 ClientConnectionId: 7764d9e3-1c4c-44ee-95a2-c30fb1b810b6)
+24 Mar 2025 19:43:59,177 TRACE map.repository.database.DonatieDBRepo 57 save - Exit
+24 Mar 2025 19:44:09,041 TRACE map.repository.database.DonatorDBRepo 121 findByNameContaining - Enter findByNameContaining task{}, elem
+24 Mar 2025 19:44:09,043 TRACE map.repository.JdbcUtils 46 getConnection - Enter
+24 Mar 2025 19:44:09,043 TRACE map.repository.JdbcUtils 54 getConnection - Exit with(ConnectionID:4 ClientConnectionId: 136a6510-4239-4764-91bd-cb4b2f2301c3)
+24 Mar 2025 19:44:09,048 TRACE map.repository.database.DonatorDBRepo 142 findByNameContaining - Exit with([Gigel])

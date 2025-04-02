@@ -1,0 +1,23 @@
+package map.repository;
+
+import map.domain.Entity;
+
+import java.util.List;
+import java.util.Optional;
+
+public interface Repository<T extends Entity<ID>, ID> {
+
+    T save(T entity);
+
+    T findOne(ID id);
+
+    Iterable<T> findAll();
+
+    T update(T entity);
+
+    Optional<T> findById(ID id);
+
+    T deleteById(ID id);
+
+    Optional<T> existsById(ID id);
+}
