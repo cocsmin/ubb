@@ -21,7 +21,7 @@ Semestrul 3:
 - [Probabilitati si Statistica](https://github.com/cocsmin/ubb/tree/main/Semestrul%203/Probabilitati%20si%20Statistica)
 
 Semestrul 4:
-- [Medii de Proiectare si Programare]()
+- [Medii de Proiectare si Programare](https://github.com/cocsmin/ubb/tree/main/Semestrul%204/MPP)
 - [Ingineria Sistemelor Soft](https://github.com/cocsmin/ubb/tree/main/Semestrul%204/ISS)
 - [Inteligenta Artificiala](https://github.com/cocsmin/ubb/tree/main/Semestrul%204/AI)
 - [Sisteme de Gestiune a Bazelor de Date](https://github.com/cocsmin/ubb/tree/main/Semestrul%204/SGBD)
