@@ -24,5 +24,5 @@ Semestrul 4:
 - [Medii de Proiectare si Programare]()
 - [Ingineria Sistemelor Soft](https://github.com/cocsmin/ubb/tree/main/Semestrul%204/ISS)
 - [Inteligenta Artificiala](https://github.com/cocsmin/ubb/tree/main/Semestrul%204/AI)
-- [Sisteme de Gestiune a Bazelor de Date]()
+- [Sisteme de Gestiune a Bazelor de Date](https://github.com/cocsmin/ubb/tree/main/Semestrul%204/SGBD)
 - [Programare Web]()
