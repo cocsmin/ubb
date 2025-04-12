@@ -1,0 +1,15 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="https://github.com/avaloniaui/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:csharp_avalonia.ViewModels"
+             mc:Ignorable="d"
+             x:Class="csharp_avalonia.Views.LoginView"
+             x:DataType="vm:LoginViewModel">
+    <StackPanel Margin="20" Spacing="10">
+        <TextBlock Text="Login" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBox Text="{Binding Username, Mode=TwoWay}" Watermark="Username"/>
+        <TextBox PasswordChar="*" Text="{Binding Password, Mode=TwoWay}" Watermark="Password"/>
+        <Button Content="Login" Command="{Binding LoginCommand}" HorizontalAlignment="Center"/>
+    </StackPanel>
+</UserControl>

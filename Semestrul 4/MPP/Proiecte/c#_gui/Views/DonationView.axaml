@@ -1,0 +1,37 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="https://github.com/avaloniaui/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:csharp_avalonia.ViewModels"
+             xmlns:domain="clr-namespace:csharp_avalonia.domain"
+             mc:Ignorable="d"
+             x:Class="csharp_avalonia.Views.DonationView"
+             x:DataType="vm:DonationViewModel">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="20" Spacing="10">
+            <TextBlock Text="Register Donation" FontSize="18" HorizontalAlignment="Center"/>
+            <ComboBox ItemsSource="{Binding Cazuri}" SelectedItem="{Binding SelectedCaz}" Width="200"/>
+            <TextBox Text="{Binding DonationAmount}" Watermark="Suma" Width="100"/>
+            <TextBox Text="{Binding DonorName}" Watermark="Nume:"/>
+            <TextBox Text="{Binding DonorAddress}" Watermark="Adresa:"/>
+            <TextBox Text="{Binding DonorPhone}" Watermark="Numar de telefon:"/>
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBox Text="{Binding DonorSearch}" Watermark="Cautare donator:"/>
+                <Button Content="Search" Command="{Binding SearchDonorCommand}"/>
+            </StackPanel>
+            <ListBox ItemsSource="{Binding Donors}" Height="150" Background="White" Foreground="Black">
+                <ListBox.ItemTemplate>
+                    <DataTemplate x:DataType="domain:Donator">
+                        <StackPanel Orientation="Horizontal" Spacing="10" Margin="5">
+                            <TextBlock Text="{Binding Nume_donator}" Width="150"/>
+                            <TextBlock Text="{Binding Adresa}" Width="150"/>
+                            <TextBlock Text="{Binding Telefon}" Width="100"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Button Content="Save Donation" Command="{Binding SaveDonationCommand}" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
