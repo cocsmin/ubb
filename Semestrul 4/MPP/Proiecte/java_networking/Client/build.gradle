@@ -1,0 +1,56 @@
+plugins {
+    id("java")
+    id("application")
+    id("org.openjfx.javafxplugin") version "0.0.13"
+}
+
+group = "map"
+version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+dependencies {
+    testImplementation(platform("org.junit:junit-bom:5.10.0"))
+    testImplementation("org.junit.jupiter:junit-jupiter")
+
+    implementation(project(":Services"))
+    implementation(project(":Networking"))
+    implementation(project(":Model"))
+    implementation(project(":Persistance"))
+
+    // Modulele JavaFX (folosim versiunea 21.0.5 pentru toate)
+    implementation("org.openjfx:javafx-controls:21.0.5")
+    implementation("org.openjfx:javafx-base:21.0.5")
+    implementation("org.openjfx:javafx-fxml:21.0.5")
+    implementation("org.openjfx:javafx-graphics:21.0.5")
+    implementation("org.openjfx:javafx-web:21.0.5")
+    implementation("org.openjfx:javafx-media:21.0.5")
+
+    implementation("org.mindrot:jbcrypt:0.4")
+    implementation("com.microsoft.sqlserver:mssql-jdbc:12.10.0.jre11")
+}
+
+javafx {
+    version = "21.0.5"
+    modules = [ "javafx.controls", "javafx.fxml" ]
+}
+
+application {
+    mainClass = "client.StartRpcClient"
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
+
+run{
+    jvmArgs = [
+            '--module-path', '/Users/cosmin/Downloads/javafx-sdk-21.0.5/lib',
+            '--add-modules', 'javafx.controls,javafx.fxml'
+    ]
+}
