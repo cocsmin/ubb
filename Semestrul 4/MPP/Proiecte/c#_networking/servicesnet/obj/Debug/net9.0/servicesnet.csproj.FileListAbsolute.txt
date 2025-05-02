@@ -1,0 +1,15 @@
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/bin/Debug/net9.0/servicesnet.deps.json
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/bin/Debug/net9.0/servicesnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/bin/Debug/net9.0/servicesnet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/bin/Debug/net9.0/modelnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/bin/Debug/net9.0/modelnet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/obj/Debug/net9.0/servicesnet.csproj.AssemblyReference.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/obj/Debug/net9.0/servicesnet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/obj/Debug/net9.0/servicesnet.AssemblyInfoInputs.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/obj/Debug/net9.0/servicesnet.AssemblyInfo.cs
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/obj/Debug/net9.0/servicesnet.csproj.CoreCompileInputs.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/obj/Debug/net9.0/services.0736828E.Up2Date
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/obj/Debug/net9.0/servicesnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/obj/Debug/net9.0/refint/servicesnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/obj/Debug/net9.0/servicesnet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/servicesnet/obj/Debug/net9.0/ref/servicesnet.dll

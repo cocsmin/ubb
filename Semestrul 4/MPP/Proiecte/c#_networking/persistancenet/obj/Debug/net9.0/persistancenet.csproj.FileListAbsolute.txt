@@ -1,0 +1,15 @@
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/obj/Debug/net9.0/persistancenet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/obj/Debug/net9.0/persistancenet.AssemblyInfoInputs.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/obj/Debug/net9.0/persistancenet.AssemblyInfo.cs
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/obj/Debug/net9.0/persistancenet.csproj.CoreCompileInputs.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/bin/Debug/net9.0/persistancenet.deps.json
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/bin/Debug/net9.0/persistancenet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/bin/Debug/net9.0/persistancenet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/bin/Debug/net9.0/modelnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/bin/Debug/net9.0/modelnet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/obj/Debug/net9.0/persistancenet.csproj.AssemblyReference.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/obj/Debug/net9.0/persista.3F937CF4.Up2Date
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/obj/Debug/net9.0/persistancenet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/obj/Debug/net9.0/refint/persistancenet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/obj/Debug/net9.0/persistancenet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/persistancenet/obj/Debug/net9.0/ref/persistancenet.dll
