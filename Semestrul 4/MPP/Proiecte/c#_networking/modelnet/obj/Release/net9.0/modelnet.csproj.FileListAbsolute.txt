@@ -1,0 +1,11 @@
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/bin/Release/net9.0/modelnet.deps.json
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/bin/Release/net9.0/modelnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/bin/Release/net9.0/modelnet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/obj/Release/net9.0/modelnet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/obj/Release/net9.0/modelnet.AssemblyInfoInputs.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/obj/Release/net9.0/modelnet.AssemblyInfo.cs
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/obj/Release/net9.0/modelnet.csproj.CoreCompileInputs.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/obj/Release/net9.0/modelnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/obj/Release/net9.0/refint/modelnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/obj/Release/net9.0/modelnet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/obj/Release/net9.0/ref/modelnet.dll

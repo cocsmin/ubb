@@ -1,0 +1,17 @@
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/obj/Debug/net9.0/networkingnet.csproj.AssemblyReference.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/obj/Debug/net9.0/networkingnet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/obj/Debug/net9.0/networkingnet.AssemblyInfoInputs.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/obj/Debug/net9.0/networkingnet.AssemblyInfo.cs
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/obj/Debug/net9.0/networkingnet.csproj.CoreCompileInputs.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/bin/Debug/net9.0/networkingnet.deps.json
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/bin/Debug/net9.0/networkingnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/bin/Debug/net9.0/networkingnet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/bin/Debug/net9.0/modelnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/bin/Debug/net9.0/servicesnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/bin/Debug/net9.0/modelnet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/bin/Debug/net9.0/servicesnet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/obj/Debug/net9.0/networki.28E334A4.Up2Date
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/obj/Debug/net9.0/networkingnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/obj/Debug/net9.0/refint/networkingnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/obj/Debug/net9.0/networkingnet.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/obj/Debug/net9.0/ref/networkingnet.dll

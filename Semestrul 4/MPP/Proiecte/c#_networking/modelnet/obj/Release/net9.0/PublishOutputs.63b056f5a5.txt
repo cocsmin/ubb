@@ -1,0 +1,3 @@
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/bin/Release/net9.0/publish/modelnet.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/bin/Release/net9.0/publish/modelnet.deps.json
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/modelnet/bin/Release/net9.0/publish/modelnet.pdb

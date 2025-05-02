@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "v/3DH/TGgnw=",
+  "success": true,
+  "projectFilePath": "/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/csharp_avalonia/networkingnet/networkingnet.csproj",
+  "expectedPackageFiles": [
+    "/Users/cosmin/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
