@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="client.controllers.DonatieController">
+    <HBox spacing="10">
+        <Label text="Caz Caritabil:"/>
+        <ComboBox fx:id="cazComboBox" prefWidth="200"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Suma:"/>
+        <TextField fx:id="donationAmountField" prefWidth="100"/>
+    </HBox>
+
+    <GridPane hgap="10" vgap="10">
+        <Label text="Nume Donator:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="donorNameField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+        <Label text="Adresă:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <TextField fx:id="donorAddressField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+        <Label text="Telefon:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        <TextField fx:id="donorPhoneField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    </GridPane>
+
+    <HBox spacing="10">
+        <TextField fx:id="donorSearchField" promptText="Caută donator..."/>
+        <Button text="Caută" fx:id="searchButton" onAction="#handleDonorSearch"/>
+    </HBox>
+
+    <TableView fx:id="donorSearchTable" onMouseClicked="#handleDonorSelect">
+        <columns>
+            <TableColumn fx:id="donorNameColumn" text="Nume" prefWidth="150"/>
+            <TableColumn fx:id="donorAddressColumn" text="Adresă" prefWidth="150"/>
+            <TableColumn fx:id="donorPhoneColumn" text="Telefon" prefWidth="100"/>
+        </columns>
+    </TableView>
+
+    <Button text="Salvează Donația" fx:id="saveDonationButton" onAction="#handleSaveDonation"/>
+</VBox>
