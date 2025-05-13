@@ -1,0 +1,14 @@
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/bin/Debug/net9.0/restclientCsharp
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/bin/Debug/net9.0/restclientCsharp.deps.json
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/bin/Debug/net9.0/restclientCsharp.runtimeconfig.json
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/bin/Debug/net9.0/restclientCsharp.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/bin/Debug/net9.0/restclientCsharp.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/obj/Debug/net9.0/restclientCsharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/obj/Debug/net9.0/restclientCsharp.AssemblyInfoInputs.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/obj/Debug/net9.0/restclientCsharp.AssemblyInfo.cs
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/obj/Debug/net9.0/restclientCsharp.csproj.CoreCompileInputs.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/obj/Debug/net9.0/restclientCsharp.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/obj/Debug/net9.0/refint/restclientCsharp.dll
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/obj/Debug/net9.0/restclientCsharp.pdb
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/obj/Debug/net9.0/restclientCsharp.genruntimeconfig.cache
+/Users/cosmin/Documents/facultate/sem4/PROIECT_MPP/restclientCsharp/restclientCsharp/obj/Debug/net9.0/ref/restclientCsharp.dll
