@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- 1) Driver și URL pentru SQL Server -->
+        <property name="hibernate.connection.driver_class">
+            com.microsoft.sqlserver.jdbc.SQLServerDriver
+        </property>
+        <property name="hibernate.connection.url">
+            jdbc:sqlserver://localhost;databaseName=MPP;encrypt=false
+        </property>
+        <property name="hibernate.connection.username">SA</property>
+        <property name="hibernate.connection.password">12345OHdf%e</property>
+
+        <!-- 2) Dialect Hibernate pentru SQL Server -->
+        <property name="hibernate.dialect">
+            org.hibernate.dialect.SQLServerDialect
+        </property>
+
+        <!-- 3) Schema‐generation → echivalent cu jakarta.persistence.schema-generation.database.action=update -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- 4) Logging SQL -->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="hibernate.highlight_sql">true</property>
+
+        <!-- 5) Mappings -->
+        <mapping class="model.Donator"/>
+        <mapping class="model.Caz"/>
+    </session-factory>
+</hibernate-configuration>

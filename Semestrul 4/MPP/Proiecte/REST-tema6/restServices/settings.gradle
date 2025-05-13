@@ -1,0 +1,5 @@
+rootProject.name = 'restServices'
+include ':Model'
+project(':Model').projectDir = file('../Model')
+include ':Persistance'
+project(':Persistance').projectDir = file('../Persistance')
