@@ -1,0 +1,155 @@
+/* src/App.css */
+
+:root {
+  --primary-bg: #f0f4f8;
+  --card-bg: #ffffff;
+  --text-color: #333;
+  --header-bg: #004466;
+  --header-text: #fff;
+  --btn-radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html, #root {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--primary-bg);
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--header-bg);
+  color: var(--header-text);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+.btn {
+  border: none;
+  border-radius: var(--btn-radius);
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-left: 4px;
+}
+
+.btn-add {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn-save {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn-cancel {
+  background: #6c757d;
+  color: #fff;
+}
+
+.btn-edit {
+  background: #ffc107;
+  color: #333;
+}
+
+.btn-delete {
+  background: #dc3545;
+  color: #fff;
+}
+
+main {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card-bg);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  background: #e9ecef;
+}
+
+tr:hover {
+  background: #f8f9fa;
+}
+
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 4px;
+  width: 320px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.form-card h2 {
+  margin-bottom: 12px;
+}
+
+.form-card label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+}
+
+.form-card input,
+.form-card textarea {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: var(--btn-radius);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.form-actions .btn {
+  margin-left: 8px;
+}
