@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="ex1.css">
+    <script src="ex1JS.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="getPlecari()">
+<header>
+    <h1>Mersul Trenurilor</h1>
+</header>
+<main>
+    <div class="stations">
+        <div class="station-group">
+            <label for="orasPlecare">Statii de plecare</label>
+            <select id="orasPlecare" multiple size="6" onchange="getSosiri(this.value)"></select>
+        </div>
+        <div class="station-group">
+            <label for="orasSosire">Statii de sosire</label>
+            <select id="orasSosire" multiple size="6">
+                <option>(Selecteaza o statie de plecare)</option>
+            </select>
+        </div>
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to right, #f8f9fc, #e0eafc);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+#userList {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+#userList li {
+    background: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+#userList li:hover {
+    background: #d3e8ff;
+    transform: scale(1.02);
+}
+
+form {
+    margin-top: 2.5rem;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    margin: 0.75rem 0;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0077cc;
+    background-color: #f0faff;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 14px 24px;
+    font-size: 1rem;
+    background: linear-gradient(to right, #0077cc, #0099ff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover:not(:disabled) {
+    background: linear-gradient(to right, #005fa3, #0077cc);
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}

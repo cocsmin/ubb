@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Filtru Produse IT</title>
+    <link rel="stylesheet" href="ex6.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="ex6JS.js" defer></script>
+</head>
+<body>
+<header><h1>Filtrare notebook-uri</h1></header>
+
+<form id="filterForm">
+    <label>Producator:
+        <select name="producator" id="producator">
+            <option value="">Toți</option>
+            <option value="HP">HP</option>
+            <option value="Dell">Dell</option>
+            <option value="Lenovo">Lenovo</option>
+        </select>
+    </label>
+
+    <label>Procesor:
+        <select name="procesor" id="procesor">
+            <option value="">Toate</option>
+            <option value="Intel i5">Intel i5</option>
+            <option value="Intel i7">Intel i7</option>
+            <option value="AMD Ryzen 5">AMD Ryzen 5</option>
+        </select>
+    </label>
+
+    <label>Memorie:
+        <select name="memorie" id="memorie">
+            <option value="">Toate</option>
+            <option value="8GB">8GB</option>
+            <option value="16GB">16GB</option>
+        </select>
+    </label>
+
+    <label>HDD:
+        <select name="hdd" id="hdd">
+            <option value="">Toate</option>
+            <option value="512GB SSD">512GB SSD</option>
+            <option value="1TB HDD">1TB HDD</option>
+        </select>
+    </label>
+
+    <label>Placa video:
+        <select name="gpu" id="gpu">
+            <option value="">Toate</option>
+            <option value="Intel UHD">Intel UHD</option>
+            <option value="NVIDIA MX250">NVIDIA MX250</option>
+            <option value="AMD Radeon">AMD Radeon</option>
+        </select>
+    </label>
+</form>
+
+<h2>Rezultate</h2>
+<div id="rezultate"></div>
+</body>
+</html>
