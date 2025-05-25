@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(to right, #fff5e6, #ffe0cc);
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    color: #3e2f1c;
+}
+
+header {
+    background: linear-gradient(to right, #ff7e00, #ffae42);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    border-bottom: 5px solid #cc5c00;
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    color: #cc5c00;
+    text-align: center;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+}
+
+article {
+    max-width: 750px;
+    background: #fff8f0;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+form:hover {
+    transform: scale(1.015);
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #cc5c00;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 14px;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background: #fffaf5;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #ffa500;
+    outline: none;
+    background: #fff6ec;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    margin-top: 1.5rem;
+    padding: 12px 28px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    background: #ff7e00;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background: #e56c00;
+    transform: translateY(-2px);
+}
+
+button[style*="background:#dc3545"] {
+    background: #cc0000;
+}
+
+button[style*="background:#dc3545"]:hover {
+    background: #a80000;
+}
+
+a {
+    color: #ff7e00;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #cc5c00;
+    text-decoration: none;
+}
+
+div.comment {
+    max-width: 600px;
+    background: #fffaf2;
+    margin: 1rem auto;
+    padding: 1.2rem;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-left: 5px solid #ff7e00;
+}

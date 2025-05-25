@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Cautare Trenuri</title>
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+<header>
+    <h1>Mersul Trenurilor</h1>
+</header>
+
+<main>
+    <form method="post" action="cauta.php">
+        <label for="plecare">Localitate plecare:</label>
+        <input type="text" name="plecare" id="plecare" required>
+
+        <label for="sosire">Localitate sosire:</label>
+        <input type="text" name="sosire" id="sosire" required>
+
+        <label>
+            <input type="checkbox" name="direct">
+            Doar curse directe
+        </label>
+
+        <button type="submit">Cauta</button>
+    </form>
+</main>
+</body>
+</html>
