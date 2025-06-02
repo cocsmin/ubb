@@ -1,0 +1,12 @@
+CREATE TABLE Transaction_Log (
+    Log_ID INT PRIMARY KEY IDENTITY,
+    Transaction_Name NVARCHAR(100),
+    Action NVARCHAR(100),
+    Timestamp DATETIME DEFAULT GETDATE(),
+    Status NVARCHAR(50)
+);
+
+SELECT * FROM Transaction_Log ORDER BY Timestamp DESC;
+
+SELECT * FROM MANCARE
+SELECT * FROM MENIU
