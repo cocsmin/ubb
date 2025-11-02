@@ -1,0 +1,7 @@
+.env
+node_modules
+build
+www
+dist
+.env
+.env.*
