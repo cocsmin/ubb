@@ -1,0 +1,8 @@
+1) del *.obj *.exe
+2) compilare kernel: nvcc -c kernels.cu -o kernels.obj -O2 -arch=sm_86 -allow-unsupported-compiler 
+-ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64"
+3) compilare main: l /c /EHsc /O2 main.cpp
+4) link editare: cl main.obj kernels.obj cudart.lib /Fe:convolution_cuda.exe 
+/link /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\lib\x64"
+5) pt script: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+powershell -ExecutionPolicy Bypass -File run_tests.ps1
